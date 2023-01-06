@@ -1,0 +1,19 @@
+{
+    "defaults": {},
+    "dirs": {
+        "data_dir": "/Users/faizqureshi/Documents/GitHub/CoresetExperiments/datasets",
+        "models_dir": "/Users/faizqureshi/Documents/GitHub/CoresetComparison/models",
+        "results_dir":  "/Users/faizqureshi/Documents/GitHub/CoresetExperiments/"
+    },
+    "dataset_name": "mnist_train.csv",
+    "techniques": [
+        "olsh",
+        "uniform",
+        "lsh",
+        "kmeans"
+    ],
+    "sizes": [
+        0.01,
+        0.1
+    ]
+}
