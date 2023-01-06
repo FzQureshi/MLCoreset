@@ -107,5 +107,3 @@ class Coreset:
         self.coreset = pd.read_csv(file_path)
         return self.coreset
 
-
-
