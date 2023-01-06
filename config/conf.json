@@ -1,19 +1,22 @@
 {
-    "defaults": {},
+    "defaults": {
+        "train_full_dataset": false
+    },
     "dirs": {
-        "data_dir": "/Users/faizqureshi/Documents/GitHub/CoresetExperiments/datasets",
-        "models_dir": "/Users/faizqureshi/Documents/GitHub/CoresetComparison/models",
-        "results_dir":  "/Users/faizqureshi/Documents/GitHub/CoresetExperiments/"
+        "data_dir": "/Users/faizqureshi/Documents/GitHub/MLCoreset/datasets",
+        "models_dir": "/Users/faizqureshi/Documents/GitHub/MLCoreset/models",
+        "results_dir":  "/Users/faizqureshi/Documents/GitHub/MLCoreset/results"
     },
     "dataset_name": "mnist_train.csv",
     "techniques": [
-        "olsh",
         "uniform",
         "lsh",
+        "olsh",
         "kmeans"
     ],
     "sizes": [
+        0.005,
         0.01,
-        0.1
+        0.05
     ]
 }

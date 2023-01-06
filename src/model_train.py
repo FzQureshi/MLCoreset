@@ -7,7 +7,7 @@ from sklearn.svm import SVC
 from sklearn.metrics import accuracy_score, f1_score
 
 
-def train_classifier(dataset, clf_name='', cs_creation_time=0):
+def train_classifier(dataset, clf_name='', cs_creation_time=0, models_dir=''):
     clf_name = 'mnist_classifier_' + clf_name
     print(f'Classifier: {clf_name}')
     start_time = time.time()
@@ -37,7 +37,7 @@ def train_classifier(dataset, clf_name='', cs_creation_time=0):
     f1 = round(f1_score(y_true=y_test, y_pred=y_preds, average='macro'), 2)
 
     #print('Saving model on disk...')
-    save_model(clf, '/Users/faizqureshi/Documents/Github/Coresets/models/', clf_name)
+    save_model(clf, models_dir, clf_name)
     time_elapsed = round(time.time() - start_time + cs_creation_time, 2)
     stat = dict(name=clf_name,
                 accuracy=acc,

@@ -8,7 +8,6 @@ from sklearn.cluster import KMeans
 
 
 def dot(normal_vector, row):
-    #print('Vec lengths: ', len(normal_vector), len(row))
     constant = normal_vector[-1]
     _normal_vector = normal_vector[:-1]
     return np.dot(_normal_vector, row) + constant
@@ -112,18 +111,6 @@ class OLSH(LSH):
     def _generate_hyperplane(num_dims, num_planes, **kwargs):
         normal_vectors = np.random.rand(num_dims, 2 * num_planes) - 0.5
         return normal_vectors
-
-    # def dot(self, normal_vector, row):
-    #     dot_product = 0
-    #     try:
-    #         dot_product = np.dot(normal_vector, row)
-    #         self.cnt += 1
-    #         print(dot_product)
-    #     except Exception as e:
-    #         print('Dot shapes: ', normal_vector.shape, row.shape)
-    #         print(f'Exception occurred: {str(e)}')
-    #         print(self.cnt)
-    #     return dot_product
 
     def _compute_hash(self, normal_vector, threshold=0.5):
         self.dataset['Dot'] = self.dataset.apply(lambda row: np.dot(normal_vector, row[1:-1]), axis=1)
