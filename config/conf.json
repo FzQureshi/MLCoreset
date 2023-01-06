@@ -1,6 +1,7 @@
 {
     "defaults": {
-        "train_full_dataset": false
+        "train_full_dataset": true,
+        "num_sims": 5
     },
     "dirs": {
         "data_dir": "/Users/faizqureshi/Documents/GitHub/MLCoreset/datasets",
@@ -9,10 +10,7 @@
     },
     "dataset_name": "mnist_train.csv",
     "techniques": [
-        "uniform",
-        "lsh",
-        "olsh",
-        "kmeans"
+        "uniform"
     ],
     "sizes": [
         0.005,

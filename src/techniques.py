@@ -37,6 +37,7 @@ class LSH(Technique):
         return normal_vector
 
     def _compute_hash(self, normal_vector):
+        # Optimize using np matmul
         self.dataset['Dot'] = self.dataset.apply(lambda row: dot(normal_vector, list(row[1:])), axis=1)
         self.dataset['Partition'] = self.dataset.apply(lambda row: 0 if row['Dot'] < 0 else 1, axis=1)
         score = self.dataset['Partition'].sum() / len(self.dataset)
@@ -70,7 +71,7 @@ class LSH(Technique):
         # Subtract 1 for label
         num_dims = self.dataset.shape[1] - 1
 
-        #
+        # Generate num_bits hyperplanes and use for hashing
         for i in range(self.num_bits):
             # print(f'Iteration - {num_bits}')
             norm_vector = self._generate_hyperplane(num_dims, min_vals, max_vals)

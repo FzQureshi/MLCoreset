@@ -16,8 +16,6 @@ def train_classifier(dataset, clf_name='', cs_creation_time=0, models_dir=''):
                                                         test_size=0.2,
                                                         random_state=42)
 
-    # for d in [x_train, x_test, y_train, y_test]:
-    #     print(f'Shape {d.shape}')
 
     # Normalize values:
     x_train /= 255
