@@ -2,8 +2,8 @@
     "Simulation_0": [
         {
             "name": "cifar10_classifier_coreset_uniform_0.005",
-            "accuracy": 0.42,
-            "f1": 0.35,
+            "accuracy": 0.36,
+            "f1": 0.46,
             "train_shape": [
                 120,
                 512
@@ -13,13 +13,13 @@
                 512
             ],
             "time_elapsed": 0.1,
-            "holdout_accuracy": 0.38,
+            "holdout_accuracy": 0.44,
             "holdout_f1": 0.4
         },
         {
             "name": "cifar10_classifier_coreset_kmeans_0.005",
-            "accuracy": 0.74,
-            "f1": 0.78,
+            "accuracy": 0.81,
+            "f1": 0.86,
             "train_shape": [
                 120,
                 512
@@ -28,14 +28,14 @@
                 30,
                 512
             ],
-            "time_elapsed": 3.18,
-            "holdout_accuracy": 0.8,
-            "holdout_f1": 0.41
+            "time_elapsed": 3.24,
+            "holdout_accuracy": 0.93,
+            "holdout_f1": 0.55
         },
         {
             "name": "cifar10_classifier_coreset_lsh_0.005",
-            "accuracy": 0.48,
-            "f1": 0.43,
+            "accuracy": 0.46,
+            "f1": 0.42,
             "train_shape": [
                 120,
                 512
@@ -44,14 +44,14 @@
                 30,
                 512
             ],
-            "time_elapsed": 12.02,
+            "time_elapsed": 12.36,
             "holdout_accuracy": 0.42,
-            "holdout_f1": 0.46
+            "holdout_f1": 0.38
         },
         {
             "name": "cifar10_classifier_coreset_olsh_0.005",
-            "accuracy": 0.51,
-            "f1": 0.49,
+            "accuracy": 0.52,
+            "f1": 0.37,
             "train_shape": [
                 120,
                 512
@@ -60,13 +60,13 @@
                 30,
                 512
             ],
-            "time_elapsed": 7.1,
+            "time_elapsed": 7.22,
             "holdout_accuracy": 0.5,
-            "holdout_f1": 0.48
+            "holdout_f1": 0.52
         },
         {
             "name": "cifar10_classifier_coreset_uniform_0.01",
-            "accuracy": 0.67,
+            "accuracy": 0.43,
             "f1": 0.52,
             "train_shape": [
                 240,
@@ -77,13 +77,13 @@
                 512
             ],
             "time_elapsed": 0.3,
-            "holdout_accuracy": 0.55,
-            "holdout_f1": 0.53
+            "holdout_accuracy": 0.44,
+            "holdout_f1": 0.62
         },
         {
             "name": "cifar10_classifier_coreset_kmeans_0.01",
-            "accuracy": 0.68,
-            "f1": 0.62,
+            "accuracy": 0.57,
+            "f1": 0.6,
             "train_shape": [
                 240,
                 512
@@ -93,29 +93,13 @@
                 512
             ],
             "time_elapsed": 1.79,
-            "holdout_accuracy": 0.7,
-            "holdout_f1": 0.61
-        },
-        {
-            "name": "cifar10_classifier_coreset_lsh_0.01",
-            "accuracy": 0.57,
-            "f1": 0.49,
-            "train_shape": [
-                240,
-                512
-            ],
-            "test_shape": [
-                60,
-                512
-            ],
-            "time_elapsed": 14.84,
-            "holdout_accuracy": 0.6,
+            "holdout_accuracy": 0.77,
             "holdout_f1": 0.48
         },
         {
-            "name": "cifar10_classifier_coreset_olsh_0.01",
-            "accuracy": 0.9,
-            "f1": 0.79,
+            "name": "cifar10_classifier_coreset_lsh_0.01",
+            "accuracy": 0.55,
+            "f1": 0.52,
             "train_shape": [
                 240,
                 512
@@ -124,14 +108,30 @@
                 60,
                 512
             ],
-            "time_elapsed": 10.08,
-            "holdout_accuracy": 0.83,
-            "holdout_f1": 0.74
+            "time_elapsed": 14.05,
+            "holdout_accuracy": 0.39,
+            "holdout_f1": 0.49
+        },
+        {
+            "name": "cifar10_classifier_coreset_olsh_0.01",
+            "accuracy": 0.88,
+            "f1": 0.86,
+            "train_shape": [
+                240,
+                512
+            ],
+            "test_shape": [
+                60,
+                512
+            ],
+            "time_elapsed": 9.45,
+            "holdout_accuracy": 0.92,
+            "holdout_f1": 0.75
         },
         {
             "name": "cifar10_classifier_coreset_uniform_0.05",
-            "accuracy": 0.88,
-            "f1": 0.81,
+            "accuracy": 0.75,
+            "f1": 0.73,
             "train_shape": [
                 1200,
                 512
@@ -141,45 +141,13 @@
                 512
             ],
             "time_elapsed": 0.49,
-            "holdout_accuracy": 0.84,
-            "holdout_f1": 0.8
-        },
-        {
-            "name": "cifar10_classifier_coreset_kmeans_0.05",
-            "accuracy": 0.95,
-            "f1": 0.9,
-            "train_shape": [
-                1200,
-                512
-            ],
-            "test_shape": [
-                300,
-                512
-            ],
-            "time_elapsed": 2.07,
-            "holdout_accuracy": 0.93,
-            "holdout_f1": 0.82
-        },
-        {
-            "name": "cifar10_classifier_coreset_lsh_0.05",
-            "accuracy": 0.82,
-            "f1": 0.79,
-            "train_shape": [
-                1200,
-                512
-            ],
-            "test_shape": [
-                300,
-                512
-            ],
-            "time_elapsed": 12.52,
-            "holdout_accuracy": 0.88,
+            "holdout_accuracy": 0.75,
             "holdout_f1": 0.74
         },
         {
-            "name": "cifar10_classifier_coreset_olsh_0.05",
-            "accuracy": 0.95,
-            "f1": 0.94,
+            "name": "cifar10_classifier_coreset_kmeans_0.05",
+            "accuracy": 0.96,
+            "f1": 0.99,
             "train_shape": [
                 1200,
                 512
@@ -188,16 +156,48 @@
                 300,
                 512
             ],
-            "time_elapsed": 6.97,
-            "holdout_accuracy": 0.95,
-            "holdout_f1": 0.87
+            "time_elapsed": 2.14,
+            "holdout_accuracy": 0.92,
+            "holdout_f1": 0.85
+        },
+        {
+            "name": "cifar10_classifier_coreset_lsh_0.05",
+            "accuracy": 0.81,
+            "f1": 0.65,
+            "train_shape": [
+                1200,
+                512
+            ],
+            "test_shape": [
+                300,
+                512
+            ],
+            "time_elapsed": 13.43,
+            "holdout_accuracy": 0.77,
+            "holdout_f1": 0.88
+        },
+        {
+            "name": "cifar10_classifier_coreset_olsh_0.05",
+            "accuracy": 0.84,
+            "f1": 0.77,
+            "train_shape": [
+                1200,
+                512
+            ],
+            "test_shape": [
+                300,
+                512
+            ],
+            "time_elapsed": 8.76,
+            "holdout_accuracy": 0.97,
+            "holdout_f1": 0.91
         }
     ],
     "Simulation_1": [
         {
             "name": "cifar10_classifier_coreset_uniform_0.005",
-            "accuracy": 0.42,
-            "f1": 0.37,
+            "accuracy": 0.38,
+            "f1": 0.31,
             "train_shape": [
                 120,
                 512
@@ -207,13 +207,13 @@
                 512
             ],
             "time_elapsed": 0.1,
-            "holdout_accuracy": 0.39,
-            "holdout_f1": 0.44
+            "holdout_accuracy": 0.41,
+            "holdout_f1": 0.37
         },
         {
             "name": "cifar10_classifier_coreset_kmeans_0.005",
-            "accuracy": 0.78,
-            "f1": 0.74,
+            "accuracy": 0.83,
+            "f1": 0.89,
             "train_shape": [
                 120,
                 512
@@ -222,14 +222,14 @@
                 30,
                 512
             ],
-            "time_elapsed": 3.18,
-            "holdout_accuracy": 0.78,
-            "holdout_f1": 0.45
+            "time_elapsed": 3.17,
+            "holdout_accuracy": 0.85,
+            "holdout_f1": 0.29
         },
         {
             "name": "cifar10_classifier_coreset_lsh_0.005",
-            "accuracy": 0.47,
-            "f1": 0.4,
+            "accuracy": 0.45,
+            "f1": 0.31,
             "train_shape": [
                 120,
                 512
@@ -238,14 +238,14 @@
                 30,
                 512
             ],
-            "time_elapsed": 12.15,
-            "holdout_accuracy": 0.42,
-            "holdout_f1": 0.45
+            "time_elapsed": 12.43,
+            "holdout_accuracy": 0.36,
+            "holdout_f1": 0.47
         },
         {
             "name": "cifar10_classifier_coreset_olsh_0.005",
-            "accuracy": 0.53,
-            "f1": 0.43,
+            "accuracy": 0.48,
+            "f1": 0.51,
             "train_shape": [
                 120,
                 512
@@ -254,14 +254,14 @@
                 30,
                 512
             ],
-            "time_elapsed": 7.27,
-            "holdout_accuracy": 0.49,
-            "holdout_f1": 0.44
+            "time_elapsed": 7.08,
+            "holdout_accuracy": 0.47,
+            "holdout_f1": 0.46
         },
         {
             "name": "cifar10_classifier_coreset_uniform_0.01",
-            "accuracy": 0.61,
-            "f1": 0.55,
+            "accuracy": 0.54,
+            "f1": 0.64,
             "train_shape": [
                 240,
                 512
@@ -271,13 +271,13 @@
                 512
             ],
             "time_elapsed": 0.3,
-            "holdout_accuracy": 0.52,
-            "holdout_f1": 0.54
+            "holdout_accuracy": 0.6,
+            "holdout_f1": 0.62
         },
         {
             "name": "cifar10_classifier_coreset_kmeans_0.01",
-            "accuracy": 0.67,
-            "f1": 0.61,
+            "accuracy": 0.63,
+            "f1": 0.63,
             "train_shape": [
                 240,
                 512
@@ -286,14 +286,14 @@
                 60,
                 512
             ],
-            "time_elapsed": 1.78,
-            "holdout_accuracy": 0.6,
-            "holdout_f1": 0.63
+            "time_elapsed": 1.81,
+            "holdout_accuracy": 0.74,
+            "holdout_f1": 0.58
         },
         {
             "name": "cifar10_classifier_coreset_lsh_0.01",
-            "accuracy": 0.56,
-            "f1": 0.46,
+            "accuracy": 0.51,
+            "f1": 0.47,
             "train_shape": [
                 240,
                 512
@@ -302,14 +302,14 @@
                 60,
                 512
             ],
-            "time_elapsed": 13.45,
-            "holdout_accuracy": 0.55,
-            "holdout_f1": 0.47
+            "time_elapsed": 14.71,
+            "holdout_accuracy": 0.61,
+            "holdout_f1": 0.45
         },
         {
             "name": "cifar10_classifier_coreset_olsh_0.01",
-            "accuracy": 0.88,
-            "f1": 0.81,
+            "accuracy": 0.8,
+            "f1": 0.77,
             "train_shape": [
                 240,
                 512
@@ -318,14 +318,14 @@
                 60,
                 512
             ],
-            "time_elapsed": 9.91,
-            "holdout_accuracy": 0.94,
-            "holdout_f1": 0.75
+            "time_elapsed": 9.38,
+            "holdout_accuracy": 0.9,
+            "holdout_f1": 0.84
         },
         {
             "name": "cifar10_classifier_coreset_uniform_0.05",
-            "accuracy": 0.9,
-            "f1": 0.78,
+            "accuracy": 0.81,
+            "f1": 0.92,
             "train_shape": [
                 1200,
                 512
@@ -335,13 +335,13 @@
                 512
             ],
             "time_elapsed": 0.49,
-            "holdout_accuracy": 0.82,
-            "holdout_f1": 0.84
+            "holdout_accuracy": 0.89,
+            "holdout_f1": 0.79
         },
         {
             "name": "cifar10_classifier_coreset_kmeans_0.05",
-            "accuracy": 0.84,
-            "f1": 0.87,
+            "accuracy": 0.79,
+            "f1": 0.9,
             "train_shape": [
                 1200,
                 512
@@ -350,14 +350,14 @@
                 300,
                 512
             ],
-            "time_elapsed": 2.12,
-            "holdout_accuracy": 0.85,
+            "time_elapsed": 2.09,
+            "holdout_accuracy": 0.89,
             "holdout_f1": 0.85
         },
         {
             "name": "cifar10_classifier_coreset_lsh_0.05",
-            "accuracy": 0.82,
-            "f1": 0.82,
+            "accuracy": 0.79,
+            "f1": 0.74,
             "train_shape": [
                 1200,
                 512
@@ -366,13 +366,191 @@
                 300,
                 512
             ],
-            "time_elapsed": 13.9,
+            "time_elapsed": 13.64,
             "holdout_accuracy": 0.81,
-            "holdout_f1": 0.78
+            "holdout_f1": 0.95
         },
         {
             "name": "cifar10_classifier_coreset_olsh_0.05",
-            "accuracy": 0.95,
+            "accuracy": 0.83,
+            "f1": 0.81,
+            "train_shape": [
+                1200,
+                512
+            ],
+            "test_shape": [
+                300,
+                512
+            ],
+            "time_elapsed": 8.08,
+            "holdout_accuracy": 0.86,
+            "holdout_f1": 0.88
+        }
+    ],
+    "Simulation_2": [
+        {
+            "name": "cifar10_classifier_coreset_uniform_0.005",
+            "accuracy": 0.34,
+            "f1": 0.42,
+            "train_shape": [
+                120,
+                512
+            ],
+            "test_shape": [
+                30,
+                512
+            ],
+            "time_elapsed": 0.1,
+            "holdout_accuracy": 0.41,
+            "holdout_f1": 0.47
+        },
+        {
+            "name": "cifar10_classifier_coreset_kmeans_0.005",
+            "accuracy": 0.68,
+            "f1": 0.79,
+            "train_shape": [
+                120,
+                512
+            ],
+            "test_shape": [
+                30,
+                512
+            ],
+            "time_elapsed": 3.17,
+            "holdout_accuracy": 0.93,
+            "holdout_f1": 0.42
+        },
+        {
+            "name": "cifar10_classifier_coreset_lsh_0.005",
+            "accuracy": 0.47,
+            "f1": 0.29,
+            "train_shape": [
+                120,
+                512
+            ],
+            "test_shape": [
+                30,
+                512
+            ],
+            "time_elapsed": 13.04,
+            "holdout_accuracy": 0.44,
+            "holdout_f1": 0.39
+        },
+        {
+            "name": "cifar10_classifier_coreset_olsh_0.005",
+            "accuracy": 0.35,
+            "f1": 0.36,
+            "train_shape": [
+                120,
+                512
+            ],
+            "test_shape": [
+                30,
+                512
+            ],
+            "time_elapsed": 6.94,
+            "holdout_accuracy": 0.54,
+            "holdout_f1": 0.45
+        },
+        {
+            "name": "cifar10_classifier_coreset_uniform_0.01",
+            "accuracy": 0.64,
+            "f1": 0.57,
+            "train_shape": [
+                240,
+                512
+            ],
+            "test_shape": [
+                60,
+                512
+            ],
+            "time_elapsed": 0.3,
+            "holdout_accuracy": 0.61,
+            "holdout_f1": 0.53
+        },
+        {
+            "name": "cifar10_classifier_coreset_kmeans_0.01",
+            "accuracy": 0.63,
+            "f1": 0.64,
+            "train_shape": [
+                240,
+                512
+            ],
+            "test_shape": [
+                60,
+                512
+            ],
+            "time_elapsed": 1.82,
+            "holdout_accuracy": 0.63,
+            "holdout_f1": 0.48
+        },
+        {
+            "name": "cifar10_classifier_coreset_lsh_0.01",
+            "accuracy": 0.51,
+            "f1": 0.52,
+            "train_shape": [
+                240,
+                512
+            ],
+            "test_shape": [
+                60,
+                512
+            ],
+            "time_elapsed": 13.08,
+            "holdout_accuracy": 0.59,
+            "holdout_f1": 0.49
+        },
+        {
+            "name": "cifar10_classifier_coreset_olsh_0.01",
+            "accuracy": 0.67,
+            "f1": 0.69,
+            "train_shape": [
+                240,
+                512
+            ],
+            "test_shape": [
+                60,
+                512
+            ],
+            "time_elapsed": 9.88,
+            "holdout_accuracy": 0.76,
+            "holdout_f1": 0.63
+        },
+        {
+            "name": "cifar10_classifier_coreset_uniform_0.05",
+            "accuracy": 0.61,
+            "f1": 0.85,
+            "train_shape": [
+                1200,
+                512
+            ],
+            "test_shape": [
+                300,
+                512
+            ],
+            "time_elapsed": 0.49,
+            "holdout_accuracy": 0.91,
+            "holdout_f1": 0.76
+        },
+        {
+            "name": "cifar10_classifier_coreset_kmeans_0.05",
+            "accuracy": 0.86,
+            "f1": 0.75,
+            "train_shape": [
+                1200,
+                512
+            ],
+            "test_shape": [
+                300,
+                512
+            ],
+            "time_elapsed": 2.09,
+            "holdout_accuracy": 0.92,
+            "holdout_f1": 0.95
+        },
+        {
+            "name": "cifar10_classifier_coreset_lsh_0.05",
+            "accuracy": 0.69,
             "f1": 0.83,
             "train_shape": [
                 1200,
@@ -382,16 +560,226 @@
                 300,
                 512
             ],
-            "time_elapsed": 8.28,
-            "holdout_accuracy": 0.96,
-            "holdout_f1": 0.89
+            "time_elapsed": 13.44,
+            "holdout_accuracy": 0.94,
+            "holdout_f1": 0.91
+        },
+        {
+            "name": "cifar10_classifier_coreset_olsh_0.05",
+            "accuracy": 0.97,
+            "f1": 0.88,
+            "train_shape": [
+                1200,
+                512
+            ],
+            "test_shape": [
+                300,
+                512
+            ],
+            "time_elapsed": 8.33,
+            "holdout_accuracy": 0.95,
+            "holdout_f1": 0.81
         }
     ],
-    "Simulation_2": [
+    "Simulation_3": [
         {
             "name": "cifar10_classifier_coreset_uniform_0.005",
-            "accuracy": 0.41,
-            "f1": 0.36,
+            "accuracy": 0.53,
+            "f1": 0.35,
+            "train_shape": [
+                120,
+                512
+            ],
+            "test_shape": [
+                30,
+                512
+            ],
+            "time_elapsed": 0.1,
+            "holdout_accuracy": 0.28,
+            "holdout_f1": 0.49
+        },
+        {
+            "name": "cifar10_classifier_coreset_kmeans_0.005",
+            "accuracy": 0.9,
+            "f1": 0.65,
+            "train_shape": [
+                120,
+                512
+            ],
+            "test_shape": [
+                30,
+                512
+            ],
+            "time_elapsed": 3.19,
+            "holdout_accuracy": 0.94,
+            "holdout_f1": 0.37
+        },
+        {
+            "name": "cifar10_classifier_coreset_lsh_0.005",
+            "accuracy": 0.38,
+            "f1": 0.4,
+            "train_shape": [
+                120,
+                512
+            ],
+            "test_shape": [
+                30,
+                512
+            ],
+            "time_elapsed": 12.21,
+            "holdout_accuracy": 0.6,
+            "holdout_f1": 0.48
+        },
+        {
+            "name": "cifar10_classifier_coreset_olsh_0.005",
+            "accuracy": 0.57,
+            "f1": 0.48,
+            "train_shape": [
+                120,
+                512
+            ],
+            "test_shape": [
+                30,
+                512
+            ],
+            "time_elapsed": 7.41,
+            "holdout_accuracy": 0.58,
+            "holdout_f1": 0.45
+        },
+        {
+            "name": "cifar10_classifier_coreset_uniform_0.01",
+            "accuracy": 0.66,
+            "f1": 0.52,
+            "train_shape": [
+                240,
+                512
+            ],
+            "test_shape": [
+                60,
+                512
+            ],
+            "time_elapsed": 0.3,
+            "holdout_accuracy": 0.53,
+            "holdout_f1": 0.48
+        },
+        {
+            "name": "cifar10_classifier_coreset_kmeans_0.01",
+            "accuracy": 0.39,
+            "f1": 0.67,
+            "train_shape": [
+                240,
+                512
+            ],
+            "test_shape": [
+                60,
+                512
+            ],
+            "time_elapsed": 1.79,
+            "holdout_accuracy": 0.68,
+            "holdout_f1": 0.56
+        },
+        {
+            "name": "cifar10_classifier_coreset_lsh_0.01",
+            "accuracy": 0.45,
+            "f1": 0.42,
+            "train_shape": [
+                240,
+                512
+            ],
+            "test_shape": [
+                60,
+                512
+            ],
+            "time_elapsed": 14.3,
+            "holdout_accuracy": 0.6,
+            "holdout_f1": 0.51
+        },
+        {
+            "name": "cifar10_classifier_coreset_olsh_0.01",
+            "accuracy": 0.85,
+            "f1": 0.83,
+            "train_shape": [
+                240,
+                512
+            ],
+            "test_shape": [
+                60,
+                512
+            ],
+            "time_elapsed": 9.45,
+            "holdout_accuracy": 0.66,
+            "holdout_f1": 0.7
+        },
+        {
+            "name": "cifar10_classifier_coreset_uniform_0.05",
+            "accuracy": 0.96,
+            "f1": 0.59,
+            "train_shape": [
+                1200,
+                512
+            ],
+            "test_shape": [
+                300,
+                512
+            ],
+            "time_elapsed": 0.49,
+            "holdout_accuracy": 0.86,
+            "holdout_f1": 0.96
+        },
+        {
+            "name": "cifar10_classifier_coreset_kmeans_0.05",
+            "accuracy": 0.89,
+            "f1": 0.99,
+            "train_shape": [
+                1200,
+                512
+            ],
+            "test_shape": [
+                300,
+                512
+            ],
+            "time_elapsed": 2.09,
+            "holdout_accuracy": 0.84,
+            "holdout_f1": 0.92
+        },
+        {
+            "name": "cifar10_classifier_coreset_lsh_0.05",
+            "accuracy": 0.99,
+            "f1": 0.76,
+            "train_shape": [
+                1200,
+                512
+            ],
+            "test_shape": [
+                300,
+                512
+            ],
+            "time_elapsed": 14.69,
+            "holdout_accuracy": 0.8,
+            "holdout_f1": 0.62
+        },
+        {
+            "name": "cifar10_classifier_coreset_olsh_0.05",
+            "accuracy": 0.72,
+            "f1": 0.8,
+            "train_shape": [
+                1200,
+                512
+            ],
+            "test_shape": [
+                300,
+                512
+            ],
+            "time_elapsed": 8.95,
+            "holdout_accuracy": 0.9,
+            "holdout_f1": 0.82
+        }
+    ],
+    "Simulation_4": [
+        {
+            "name": "cifar10_classifier_coreset_uniform_0.005",
+            "accuracy": 0.37,
+            "f1": 0.33,
             "train_shape": [
                 120,
                 512
@@ -406,976 +794,6 @@
         },
         {
             "name": "cifar10_classifier_coreset_kmeans_0.005",
-            "accuracy": 0.8,
-            "f1": 0.69,
-            "train_shape": [
-                120,
-                512
-            ],
-            "test_shape": [
-                30,
-                512
-            ],
-            "time_elapsed": 3.16,
-            "holdout_accuracy": 0.74,
-            "holdout_f1": 0.45
-        },
-        {
-            "name": "cifar10_classifier_coreset_lsh_0.005",
-            "accuracy": 0.47,
-            "f1": 0.41,
-            "train_shape": [
-                120,
-                512
-            ],
-            "test_shape": [
-                30,
-                512
-            ],
-            "time_elapsed": 13.59,
-            "holdout_accuracy": 0.42,
-            "holdout_f1": 0.43
-        },
-        {
-            "name": "cifar10_classifier_coreset_olsh_0.005",
-            "accuracy": 0.52,
-            "f1": 0.44,
-            "train_shape": [
-                120,
-                512
-            ],
-            "test_shape": [
-                30,
-                512
-            ],
-            "time_elapsed": 7.26,
-            "holdout_accuracy": 0.5,
-            "holdout_f1": 0.43
-        },
-        {
-            "name": "cifar10_classifier_coreset_uniform_0.01",
-            "accuracy": 0.6,
-            "f1": 0.54,
-            "train_shape": [
-                240,
-                512
-            ],
-            "test_shape": [
-                60,
-                512
-            ],
-            "time_elapsed": 0.3,
-            "holdout_accuracy": 0.56,
-            "holdout_f1": 0.5
-        },
-        {
-            "name": "cifar10_classifier_coreset_kmeans_0.01",
-            "accuracy": 0.65,
-            "f1": 0.6,
-            "train_shape": [
-                240,
-                512
-            ],
-            "test_shape": [
-                60,
-                512
-            ],
-            "time_elapsed": 1.79,
-            "holdout_accuracy": 0.65,
-            "holdout_f1": 0.65
-        },
-        {
-            "name": "cifar10_classifier_coreset_lsh_0.01",
-            "accuracy": 0.55,
-            "f1": 0.46,
-            "train_shape": [
-                240,
-                512
-            ],
-            "test_shape": [
-                60,
-                512
-            ],
-            "time_elapsed": 13.82,
-            "holdout_accuracy": 0.54,
-            "holdout_f1": 0.53
-        },
-        {
-            "name": "cifar10_classifier_coreset_olsh_0.01",
-            "accuracy": 0.81,
-            "f1": 0.81,
-            "train_shape": [
-                240,
-                512
-            ],
-            "test_shape": [
-                60,
-                512
-            ],
-            "time_elapsed": 9.89,
-            "holdout_accuracy": 0.89,
-            "holdout_f1": 0.71
-        },
-        {
-            "name": "cifar10_classifier_coreset_uniform_0.05",
-            "accuracy": 0.92,
-            "f1": 0.81,
-            "train_shape": [
-                1200,
-                512
-            ],
-            "test_shape": [
-                300,
-                512
-            ],
-            "time_elapsed": 0.49,
-            "holdout_accuracy": 0.91,
-            "holdout_f1": 0.82
-        },
-        {
-            "name": "cifar10_classifier_coreset_kmeans_0.05",
-            "accuracy": 0.9,
-            "f1": 0.92,
-            "train_shape": [
-                1200,
-                512
-            ],
-            "test_shape": [
-                300,
-                512
-            ],
-            "time_elapsed": 2.13,
-            "holdout_accuracy": 0.88,
-            "holdout_f1": 0.94
-        },
-        {
-            "name": "cifar10_classifier_coreset_lsh_0.05",
-            "accuracy": 0.95,
-            "f1": 0.82,
-            "train_shape": [
-                1200,
-                512
-            ],
-            "test_shape": [
-                300,
-                512
-            ],
-            "time_elapsed": 14.56,
-            "holdout_accuracy": 0.9,
-            "holdout_f1": 0.81
-        },
-        {
-            "name": "cifar10_classifier_coreset_olsh_0.05",
-            "accuracy": 0.97,
-            "f1": 0.86,
-            "train_shape": [
-                1200,
-                512
-            ],
-            "test_shape": [
-                300,
-                512
-            ],
-            "time_elapsed": 8.64,
-            "holdout_accuracy": 0.94,
-            "holdout_f1": 0.88
-        }
-    ],
-    "Simulation_3": [
-        {
-            "name": "cifar10_classifier_coreset_uniform_0.005",
-            "accuracy": 0.42,
-            "f1": 0.33,
-            "train_shape": [
-                120,
-                512
-            ],
-            "test_shape": [
-                30,
-                512
-            ],
-            "time_elapsed": 0.1,
-            "holdout_accuracy": 0.4,
-            "holdout_f1": 0.4
-        },
-        {
-            "name": "cifar10_classifier_coreset_kmeans_0.005",
-            "accuracy": 0.82,
-            "f1": 0.78,
-            "train_shape": [
-                120,
-                512
-            ],
-            "test_shape": [
-                30,
-                512
-            ],
-            "time_elapsed": 3.18,
-            "holdout_accuracy": 0.86,
-            "holdout_f1": 0.44
-        },
-        {
-            "name": "cifar10_classifier_coreset_lsh_0.005",
-            "accuracy": 0.46,
-            "f1": 0.4,
-            "train_shape": [
-                120,
-                512
-            ],
-            "test_shape": [
-                30,
-                512
-            ],
-            "time_elapsed": 14.25,
-            "holdout_accuracy": 0.37,
-            "holdout_f1": 0.43
-        },
-        {
-            "name": "cifar10_classifier_coreset_olsh_0.005",
-            "accuracy": 0.56,
-            "f1": 0.42,
-            "train_shape": [
-                120,
-                512
-            ],
-            "test_shape": [
-                30,
-                512
-            ],
-            "time_elapsed": 7.32,
-            "holdout_accuracy": 0.47,
-            "holdout_f1": 0.49
-        },
-        {
-            "name": "cifar10_classifier_coreset_uniform_0.01",
-            "accuracy": 0.63,
-            "f1": 0.52,
-            "train_shape": [
-                240,
-                512
-            ],
-            "test_shape": [
-                60,
-                512
-            ],
-            "time_elapsed": 0.3,
-            "holdout_accuracy": 0.56,
-            "holdout_f1": 0.55
-        },
-        {
-            "name": "cifar10_classifier_coreset_kmeans_0.01",
-            "accuracy": 0.58,
-            "f1": 0.62,
-            "train_shape": [
-                240,
-                512
-            ],
-            "test_shape": [
-                60,
-                512
-            ],
-            "time_elapsed": 1.82,
-            "holdout_accuracy": 0.66,
-            "holdout_f1": 0.6
-        },
-        {
-            "name": "cifar10_classifier_coreset_lsh_0.01",
-            "accuracy": 0.49,
-            "f1": 0.51,
-            "train_shape": [
-                240,
-                512
-            ],
-            "test_shape": [
-                60,
-                512
-            ],
-            "time_elapsed": 14.29,
-            "holdout_accuracy": 0.59,
-            "holdout_f1": 0.48
-        },
-        {
-            "name": "cifar10_classifier_coreset_olsh_0.01",
-            "accuracy": 0.95,
-            "f1": 0.73,
-            "train_shape": [
-                240,
-                512
-            ],
-            "test_shape": [
-                60,
-                512
-            ],
-            "time_elapsed": 10.08,
-            "holdout_accuracy": 0.86,
-            "holdout_f1": 0.64
-        },
-        {
-            "name": "cifar10_classifier_coreset_uniform_0.05",
-            "accuracy": 0.95,
-            "f1": 0.83,
-            "train_shape": [
-                1200,
-                512
-            ],
-            "test_shape": [
-                300,
-                512
-            ],
-            "time_elapsed": 0.49,
-            "holdout_accuracy": 0.85,
-            "holdout_f1": 0.85
-        },
-        {
-            "name": "cifar10_classifier_coreset_kmeans_0.05",
-            "accuracy": 0.93,
-            "f1": 0.91,
-            "train_shape": [
-                1200,
-                512
-            ],
-            "test_shape": [
-                300,
-                512
-            ],
-            "time_elapsed": 2.1,
-            "holdout_accuracy": 0.92,
-            "holdout_f1": 0.87
-        },
-        {
-            "name": "cifar10_classifier_coreset_lsh_0.05",
-            "accuracy": 0.84,
-            "f1": 0.78,
-            "train_shape": [
-                1200,
-                512
-            ],
-            "test_shape": [
-                300,
-                512
-            ],
-            "time_elapsed": 15.25,
-            "holdout_accuracy": 0.91,
-            "holdout_f1": 0.79
-        },
-        {
-            "name": "cifar10_classifier_coreset_olsh_0.05",
-            "accuracy": 0.93,
-            "f1": 0.94,
-            "train_shape": [
-                1200,
-                512
-            ],
-            "test_shape": [
-                300,
-                512
-            ],
-            "time_elapsed": 8.6,
-            "holdout_accuracy": 0.85,
-            "holdout_f1": 0.89
-        }
-    ],
-    "Simulation_4": [
-        {
-            "name": "cifar10_classifier_coreset_uniform_0.005",
-            "accuracy": 0.42,
-            "f1": 0.35,
-            "train_shape": [
-                120,
-                512
-            ],
-            "test_shape": [
-                30,
-                512
-            ],
-            "time_elapsed": 0.1,
-            "holdout_accuracy": 0.35,
-            "holdout_f1": 0.42
-        },
-        {
-            "name": "cifar10_classifier_coreset_kmeans_0.005",
-            "accuracy": 0.8,
-            "f1": 0.78,
-            "train_shape": [
-                120,
-                512
-            ],
-            "test_shape": [
-                30,
-                512
-            ],
-            "time_elapsed": 3.2,
-            "holdout_accuracy": 0.76,
-            "holdout_f1": 0.45
-        },
-        {
-            "name": "cifar10_classifier_coreset_lsh_0.005",
-            "accuracy": 0.5,
-            "f1": 0.43,
-            "train_shape": [
-                120,
-                512
-            ],
-            "test_shape": [
-                30,
-                512
-            ],
-            "time_elapsed": 13.0,
-            "holdout_accuracy": 0.46,
-            "holdout_f1": 0.41
-        },
-        {
-            "name": "cifar10_classifier_coreset_olsh_0.005",
-            "accuracy": 0.51,
-            "f1": 0.43,
-            "train_shape": [
-                120,
-                512
-            ],
-            "test_shape": [
-                30,
-                512
-            ],
-            "time_elapsed": 6.97,
-            "holdout_accuracy": 0.5,
-            "holdout_f1": 0.47
-        },
-        {
-            "name": "cifar10_classifier_coreset_uniform_0.01",
-            "accuracy": 0.6,
-            "f1": 0.5,
-            "train_shape": [
-                240,
-                512
-            ],
-            "test_shape": [
-                60,
-                512
-            ],
-            "time_elapsed": 0.3,
-            "holdout_accuracy": 0.56,
-            "holdout_f1": 0.55
-        },
-        {
-            "name": "cifar10_classifier_coreset_kmeans_0.01",
-            "accuracy": 0.67,
-            "f1": 0.68,
-            "train_shape": [
-                240,
-                512
-            ],
-            "test_shape": [
-                60,
-                512
-            ],
-            "time_elapsed": 1.76,
-            "holdout_accuracy": 0.75,
-            "holdout_f1": 0.58
-        },
-        {
-            "name": "cifar10_classifier_coreset_lsh_0.01",
-            "accuracy": 0.53,
-            "f1": 0.49,
-            "train_shape": [
-                240,
-                512
-            ],
-            "test_shape": [
-                60,
-                512
-            ],
-            "time_elapsed": 14.18,
-            "holdout_accuracy": 0.5,
-            "holdout_f1": 0.43
-        },
-        {
-            "name": "cifar10_classifier_coreset_olsh_0.01",
-            "accuracy": 0.81,
-            "f1": 0.79,
-            "train_shape": [
-                240,
-                512
-            ],
-            "test_shape": [
-                60,
-                512
-            ],
-            "time_elapsed": 9.24,
-            "holdout_accuracy": 0.84,
-            "holdout_f1": 0.74
-        },
-        {
-            "name": "cifar10_classifier_coreset_uniform_0.05",
-            "accuracy": 0.86,
-            "f1": 0.76,
-            "train_shape": [
-                1200,
-                512
-            ],
-            "test_shape": [
-                300,
-                512
-            ],
-            "time_elapsed": 0.49,
-            "holdout_accuracy": 0.8,
-            "holdout_f1": 0.85
-        },
-        {
-            "name": "cifar10_classifier_coreset_kmeans_0.05",
-            "accuracy": 0.9,
-            "f1": 0.82,
-            "train_shape": [
-                1200,
-                512
-            ],
-            "test_shape": [
-                300,
-                512
-            ],
-            "time_elapsed": 2.11,
-            "holdout_accuracy": 0.88,
-            "holdout_f1": 0.88
-        },
-        {
-            "name": "cifar10_classifier_coreset_lsh_0.05",
-            "accuracy": 0.88,
-            "f1": 0.8,
-            "train_shape": [
-                1200,
-                512
-            ],
-            "test_shape": [
-                300,
-                512
-            ],
-            "time_elapsed": 15.0,
-            "holdout_accuracy": 0.78,
-            "holdout_f1": 0.81
-        },
-        {
-            "name": "cifar10_classifier_coreset_olsh_0.05",
-            "accuracy": 0.93,
-            "f1": 0.85,
-            "train_shape": [
-                1200,
-                512
-            ],
-            "test_shape": [
-                300,
-                512
-            ],
-            "time_elapsed": 8.88,
-            "holdout_accuracy": 0.93,
-            "holdout_f1": 0.87
-        }
-    ],
-    "Simulation_5": [
-        {
-            "name": "cifar10_classifier_coreset_uniform_0.005",
-            "accuracy": 0.39,
-            "f1": 0.37,
-            "train_shape": [
-                120,
-                512
-            ],
-            "test_shape": [
-                30,
-                512
-            ],
-            "time_elapsed": 0.1,
-            "holdout_accuracy": 0.38,
-            "holdout_f1": 0.4
-        },
-        {
-            "name": "cifar10_classifier_coreset_kmeans_0.005",
-            "accuracy": 0.84,
-            "f1": 0.76,
-            "train_shape": [
-                120,
-                512
-            ],
-            "test_shape": [
-                30,
-                512
-            ],
-            "time_elapsed": 3.17,
-            "holdout_accuracy": 0.8,
-            "holdout_f1": 0.45
-        },
-        {
-            "name": "cifar10_classifier_coreset_lsh_0.005",
-            "accuracy": 0.46,
-            "f1": 0.42,
-            "train_shape": [
-                120,
-                512
-            ],
-            "test_shape": [
-                30,
-                512
-            ],
-            "time_elapsed": 12.54,
-            "holdout_accuracy": 0.39,
-            "holdout_f1": 0.45
-        },
-        {
-            "name": "cifar10_classifier_coreset_olsh_0.005",
-            "accuracy": 0.56,
-            "f1": 0.42,
-            "train_shape": [
-                120,
-                512
-            ],
-            "test_shape": [
-                30,
-                512
-            ],
-            "time_elapsed": 7.1,
-            "holdout_accuracy": 0.53,
-            "holdout_f1": 0.46
-        },
-        {
-            "name": "cifar10_classifier_coreset_uniform_0.01",
-            "accuracy": 0.58,
-            "f1": 0.52,
-            "train_shape": [
-                240,
-                512
-            ],
-            "test_shape": [
-                60,
-                512
-            ],
-            "time_elapsed": 0.3,
-            "holdout_accuracy": 0.55,
-            "holdout_f1": 0.5
-        },
-        {
-            "name": "cifar10_classifier_coreset_kmeans_0.01",
-            "accuracy": 0.68,
-            "f1": 0.61,
-            "train_shape": [
-                240,
-                512
-            ],
-            "test_shape": [
-                60,
-                512
-            ],
-            "time_elapsed": 1.78,
-            "holdout_accuracy": 0.63,
-            "holdout_f1": 0.61
-        },
-        {
-            "name": "cifar10_classifier_coreset_lsh_0.01",
-            "accuracy": 0.51,
-            "f1": 0.53,
-            "train_shape": [
-                240,
-                512
-            ],
-            "test_shape": [
-                60,
-                512
-            ],
-            "time_elapsed": 15.28,
-            "holdout_accuracy": 0.53,
-            "holdout_f1": 0.45
-        },
-        {
-            "name": "cifar10_classifier_coreset_olsh_0.01",
-            "accuracy": 0.81,
-            "f1": 0.73,
-            "train_shape": [
-                240,
-                512
-            ],
-            "test_shape": [
-                60,
-                512
-            ],
-            "time_elapsed": 9.64,
-            "holdout_accuracy": 0.89,
-            "holdout_f1": 0.75
-        },
-        {
-            "name": "cifar10_classifier_coreset_uniform_0.05",
-            "accuracy": 0.96,
-            "f1": 0.78,
-            "train_shape": [
-                1200,
-                512
-            ],
-            "test_shape": [
-                300,
-                512
-            ],
-            "time_elapsed": 0.49,
-            "holdout_accuracy": 0.87,
-            "holdout_f1": 0.91
-        },
-        {
-            "name": "cifar10_classifier_coreset_kmeans_0.05",
-            "accuracy": 0.89,
-            "f1": 0.88,
-            "train_shape": [
-                1200,
-                512
-            ],
-            "test_shape": [
-                300,
-                512
-            ],
-            "time_elapsed": 2.09,
-            "holdout_accuracy": 0.93,
-            "holdout_f1": 0.84
-        },
-        {
-            "name": "cifar10_classifier_coreset_lsh_0.05",
-            "accuracy": 0.87,
-            "f1": 0.9,
-            "train_shape": [
-                1200,
-                512
-            ],
-            "test_shape": [
-                300,
-                512
-            ],
-            "time_elapsed": 12.92,
-            "holdout_accuracy": 0.79,
-            "holdout_f1": 0.82
-        },
-        {
-            "name": "cifar10_classifier_coreset_olsh_0.05",
-            "accuracy": 0.98,
-            "f1": 0.9,
-            "train_shape": [
-                1200,
-                512
-            ],
-            "test_shape": [
-                300,
-                512
-            ],
-            "time_elapsed": 7.63,
-            "holdout_accuracy": 0.92,
-            "holdout_f1": 0.88
-        }
-    ],
-    "Simulation_6": [
-        {
-            "name": "cifar10_classifier_coreset_uniform_0.005",
-            "accuracy": 0.41,
-            "f1": 0.34,
-            "train_shape": [
-                120,
-                512
-            ],
-            "test_shape": [
-                30,
-                512
-            ],
-            "time_elapsed": 0.1,
-            "holdout_accuracy": 0.35,
-            "holdout_f1": 0.4
-        },
-        {
-            "name": "cifar10_classifier_coreset_kmeans_0.005",
-            "accuracy": 0.86,
-            "f1": 0.76,
-            "train_shape": [
-                120,
-                512
-            ],
-            "test_shape": [
-                30,
-                512
-            ],
-            "time_elapsed": 3.19,
-            "holdout_accuracy": 0.83,
-            "holdout_f1": 0.43
-        },
-        {
-            "name": "cifar10_classifier_coreset_lsh_0.005",
-            "accuracy": 0.5,
-            "f1": 0.37,
-            "train_shape": [
-                120,
-                512
-            ],
-            "test_shape": [
-                30,
-                512
-            ],
-            "time_elapsed": 13.81,
-            "holdout_accuracy": 0.47,
-            "holdout_f1": 0.43
-        },
-        {
-            "name": "cifar10_classifier_coreset_olsh_0.005",
-            "accuracy": 0.54,
-            "f1": 0.47,
-            "train_shape": [
-                120,
-                512
-            ],
-            "test_shape": [
-                30,
-                512
-            ],
-            "time_elapsed": 7.2,
-            "holdout_accuracy": 0.5,
-            "holdout_f1": 0.47
-        },
-        {
-            "name": "cifar10_classifier_coreset_uniform_0.01",
-            "accuracy": 0.62,
-            "f1": 0.5,
-            "train_shape": [
-                240,
-                512
-            ],
-            "test_shape": [
-                60,
-                512
-            ],
-            "time_elapsed": 0.3,
-            "holdout_accuracy": 0.49,
-            "holdout_f1": 0.46
-        },
-        {
-            "name": "cifar10_classifier_coreset_kmeans_0.01",
-            "accuracy": 0.7,
-            "f1": 0.61,
-            "train_shape": [
-                240,
-                512
-            ],
-            "test_shape": [
-                60,
-                512
-            ],
-            "time_elapsed": 1.8,
-            "holdout_accuracy": 0.67,
-            "holdout_f1": 0.64
-        },
-        {
-            "name": "cifar10_classifier_coreset_lsh_0.01",
-            "accuracy": 0.54,
-            "f1": 0.51,
-            "train_shape": [
-                240,
-                512
-            ],
-            "test_shape": [
-                60,
-                512
-            ],
-            "time_elapsed": 13.29,
-            "holdout_accuracy": 0.54,
-            "holdout_f1": 0.48
-        },
-        {
-            "name": "cifar10_classifier_coreset_olsh_0.01",
-            "accuracy": 0.88,
-            "f1": 0.81,
-            "train_shape": [
-                240,
-                512
-            ],
-            "test_shape": [
-                60,
-                512
-            ],
-            "time_elapsed": 8.49,
-            "holdout_accuracy": 0.84,
-            "holdout_f1": 0.71
-        },
-        {
-            "name": "cifar10_classifier_coreset_uniform_0.05",
-            "accuracy": 0.87,
-            "f1": 0.8,
-            "train_shape": [
-                1200,
-                512
-            ],
-            "test_shape": [
-                300,
-                512
-            ],
-            "time_elapsed": 0.49,
-            "holdout_accuracy": 0.89,
-            "holdout_f1": 0.84
-        },
-        {
-            "name": "cifar10_classifier_coreset_kmeans_0.05",
-            "accuracy": 0.87,
-            "f1": 0.87,
-            "train_shape": [
-                1200,
-                512
-            ],
-            "test_shape": [
-                300,
-                512
-            ],
-            "time_elapsed": 2.12,
-            "holdout_accuracy": 0.94,
-            "holdout_f1": 0.9
-        },
-        {
-            "name": "cifar10_classifier_coreset_lsh_0.05",
-            "accuracy": 0.86,
-            "f1": 0.89,
-            "train_shape": [
-                1200,
-                512
-            ],
-            "test_shape": [
-                300,
-                512
-            ],
-            "time_elapsed": 12.33,
-            "holdout_accuracy": 0.84,
-            "holdout_f1": 0.83
-        },
-        {
-            "name": "cifar10_classifier_coreset_olsh_0.05",
-            "accuracy": 0.96,
-            "f1": 0.88,
-            "train_shape": [
-                1200,
-                512
-            ],
-            "test_shape": [
-                300,
-                512
-            ],
-            "time_elapsed": 8.78,
-            "holdout_accuracy": 0.81,
-            "holdout_f1": 0.86
-        }
-    ],
-    "Simulation_7": [
-        {
-            "name": "cifar10_classifier_coreset_uniform_0.005",
-            "accuracy": 0.41,
-            "f1": 0.34,
-            "train_shape": [
-                120,
-                512
-            ],
-            "test_shape": [
-                30,
-                512
-            ],
-            "time_elapsed": 0.1,
-            "holdout_accuracy": 0.37,
-            "holdout_f1": 0.38
-        },
-        {
-            "name": "cifar10_classifier_coreset_kmeans_0.005",
             "accuracy": 0.76,
             "f1": 0.71,
             "train_shape": [
@@ -1386,14 +804,14 @@
                 30,
                 512
             ],
-            "time_elapsed": 3.21,
-            "holdout_accuracy": 0.7,
-            "holdout_f1": 0.44
+            "time_elapsed": 3.22,
+            "holdout_accuracy": 0.95,
+            "holdout_f1": 0.38
         },
         {
             "name": "cifar10_classifier_coreset_lsh_0.005",
-            "accuracy": 0.49,
-            "f1": 0.4,
+            "accuracy": 0.52,
+            "f1": 0.47,
             "train_shape": [
                 120,
                 512
@@ -1402,14 +820,14 @@
                 30,
                 512
             ],
-            "time_elapsed": 12.91,
-            "holdout_accuracy": 0.43,
+            "time_elapsed": 10.95,
+            "holdout_accuracy": 0.35,
             "holdout_f1": 0.4
         },
         {
             "name": "cifar10_classifier_coreset_olsh_0.005",
-            "accuracy": 0.52,
-            "f1": 0.4,
+            "accuracy": 0.5,
+            "f1": 0.49,
             "train_shape": [
                 120,
                 512
@@ -1418,14 +836,14 @@
                 30,
                 512
             ],
-            "time_elapsed": 7.45,
-            "holdout_accuracy": 0.49,
-            "holdout_f1": 0.48
+            "time_elapsed": 7.2,
+            "holdout_accuracy": 0.67,
+            "holdout_f1": 0.52
         },
         {
             "name": "cifar10_classifier_coreset_uniform_0.01",
-            "accuracy": 0.57,
-            "f1": 0.54,
+            "accuracy": 0.43,
+            "f1": 0.41,
             "train_shape": [
                 240,
                 512
@@ -1435,13 +853,13 @@
                 512
             ],
             "time_elapsed": 0.3,
-            "holdout_accuracy": 0.48,
-            "holdout_f1": 0.57
+            "holdout_accuracy": 0.64,
+            "holdout_f1": 0.52
         },
         {
             "name": "cifar10_classifier_coreset_kmeans_0.01",
             "accuracy": 0.67,
-            "f1": 0.6,
+            "f1": 0.51,
             "train_shape": [
                 240,
                 512
@@ -1450,14 +868,14 @@
                 60,
                 512
             ],
-            "time_elapsed": 1.81,
-            "holdout_accuracy": 0.67,
-            "holdout_f1": 0.61
+            "time_elapsed": 1.82,
+            "holdout_accuracy": 0.58,
+            "holdout_f1": 0.53
         },
         {
             "name": "cifar10_classifier_coreset_lsh_0.01",
             "accuracy": 0.53,
-            "f1": 0.49,
+            "f1": 0.59,
             "train_shape": [
                 240,
                 512
@@ -1466,14 +884,14 @@
                 60,
                 512
             ],
-            "time_elapsed": 13.12,
-            "holdout_accuracy": 0.57,
+            "time_elapsed": 13.26,
+            "holdout_accuracy": 0.62,
             "holdout_f1": 0.47
         },
         {
             "name": "cifar10_classifier_coreset_olsh_0.01",
-            "accuracy": 0.88,
-            "f1": 0.82,
+            "accuracy": 0.91,
+            "f1": 0.88,
             "train_shape": [
                 240,
                 512
@@ -1482,14 +900,14 @@
                 60,
                 512
             ],
-            "time_elapsed": 9.34,
-            "holdout_accuracy": 0.81,
-            "holdout_f1": 0.76
+            "time_elapsed": 9.77,
+            "holdout_accuracy": 0.83,
+            "holdout_f1": 0.58
         },
         {
             "name": "cifar10_classifier_coreset_uniform_0.05",
-            "accuracy": 0.92,
-            "f1": 0.79,
+            "accuracy": 0.79,
+            "f1": 0.59,
             "train_shape": [
                 1200,
                 512
@@ -1499,13 +917,13 @@
                 512
             ],
             "time_elapsed": 0.49,
-            "holdout_accuracy": 0.83,
-            "holdout_f1": 0.84
+            "holdout_accuracy": 0.72,
+            "holdout_f1": 0.98
         },
         {
             "name": "cifar10_classifier_coreset_kmeans_0.05",
-            "accuracy": 0.92,
-            "f1": 0.87,
+            "accuracy": 0.86,
+            "f1": 0.81,
             "train_shape": [
                 1200,
                 512
@@ -1514,14 +932,14 @@
                 300,
                 512
             ],
-            "time_elapsed": 2.11,
-            "holdout_accuracy": 0.84,
+            "time_elapsed": 2.05,
+            "holdout_accuracy": 0.88,
             "holdout_f1": 0.95
         },
         {
             "name": "cifar10_classifier_coreset_lsh_0.05",
-            "accuracy": 0.87,
-            "f1": 0.82,
+            "accuracy": 0.95,
+            "f1": 0.94,
             "train_shape": [
                 1200,
                 512
@@ -1530,14 +948,14 @@
                 300,
                 512
             ],
-            "time_elapsed": 12.64,
-            "holdout_accuracy": 0.87,
-            "holdout_f1": 0.81
+            "time_elapsed": 12.57,
+            "holdout_accuracy": 0.68,
+            "holdout_f1": 0.77
         },
         {
             "name": "cifar10_classifier_coreset_olsh_0.05",
-            "accuracy": 0.93,
-            "f1": 0.88,
+            "accuracy": 0.91,
+            "f1": 0.85,
             "train_shape": [
                 1200,
                 512
@@ -1546,16 +964,16 @@
                 300,
                 512
             ],
-            "time_elapsed": 8.52,
-            "holdout_accuracy": 0.91,
-            "holdout_f1": 0.82
+            "time_elapsed": 8.54,
+            "holdout_accuracy": 0.94,
+            "holdout_f1": 0.86
         }
     ],
-    "Simulation_8": [
+    "Simulation_5": [
         {
             "name": "cifar10_classifier_coreset_uniform_0.005",
-            "accuracy": 0.39,
-            "f1": 0.37,
+            "accuracy": 0.42,
+            "f1": 0.42,
             "train_shape": [
                 120,
                 512
@@ -1565,13 +983,13 @@
                 512
             ],
             "time_elapsed": 0.1,
-            "holdout_accuracy": 0.38,
-            "holdout_f1": 0.43
+            "holdout_accuracy": 0.42,
+            "holdout_f1": 0.35
         },
         {
             "name": "cifar10_classifier_coreset_kmeans_0.005",
-            "accuracy": 0.85,
-            "f1": 0.74,
+            "accuracy": 0.84,
+            "f1": 0.53,
             "train_shape": [
                 120,
                 512
@@ -1580,14 +998,14 @@
                 30,
                 512
             ],
-            "time_elapsed": 3.27,
-            "holdout_accuracy": 0.81,
-            "holdout_f1": 0.45
+            "time_elapsed": 3.24,
+            "holdout_accuracy": 0.61,
+            "holdout_f1": 0.37
         },
         {
             "name": "cifar10_classifier_coreset_lsh_0.005",
-            "accuracy": 0.46,
-            "f1": 0.45,
+            "accuracy": 0.55,
+            "f1": 0.34,
             "train_shape": [
                 120,
                 512
@@ -1596,14 +1014,14 @@
                 30,
                 512
             ],
-            "time_elapsed": 12.85,
-            "holdout_accuracy": 0.45,
-            "holdout_f1": 0.42
+            "time_elapsed": 12.86,
+            "holdout_accuracy": 0.39,
+            "holdout_f1": 0.54
         },
         {
             "name": "cifar10_classifier_coreset_olsh_0.005",
-            "accuracy": 0.56,
-            "f1": 0.46,
+            "accuracy": 0.59,
+            "f1": 0.49,
             "train_shape": [
                 120,
                 512
@@ -1612,14 +1030,208 @@
                 30,
                 512
             ],
-            "time_elapsed": 7.04,
-            "holdout_accuracy": 0.51,
-            "holdout_f1": 0.47
+            "time_elapsed": 6.9,
+            "holdout_accuracy": 0.52,
+            "holdout_f1": 0.55
         },
         {
             "name": "cifar10_classifier_coreset_uniform_0.01",
-            "accuracy": 0.59,
-            "f1": 0.56,
+            "accuracy": 0.43,
+            "f1": 0.53,
+            "train_shape": [
+                240,
+                512
+            ],
+            "test_shape": [
+                60,
+                512
+            ],
+            "time_elapsed": 0.3,
+            "holdout_accuracy": 0.63,
+            "holdout_f1": 0.5
+        },
+        {
+            "name": "cifar10_classifier_coreset_kmeans_0.01",
+            "accuracy": 0.7,
+            "f1": 0.71,
+            "train_shape": [
+                240,
+                512
+            ],
+            "test_shape": [
+                60,
+                512
+            ],
+            "time_elapsed": 1.8,
+            "holdout_accuracy": 0.74,
+            "holdout_f1": 0.53
+        },
+        {
+            "name": "cifar10_classifier_coreset_lsh_0.01",
+            "accuracy": 0.54,
+            "f1": 0.52,
+            "train_shape": [
+                240,
+                512
+            ],
+            "test_shape": [
+                60,
+                512
+            ],
+            "time_elapsed": 14.12,
+            "holdout_accuracy": 0.55,
+            "holdout_f1": 0.55
+        },
+        {
+            "name": "cifar10_classifier_coreset_olsh_0.01",
+            "accuracy": 0.77,
+            "f1": 0.78,
+            "train_shape": [
+                240,
+                512
+            ],
+            "test_shape": [
+                60,
+                512
+            ],
+            "time_elapsed": 10.1,
+            "holdout_accuracy": 0.93,
+            "holdout_f1": 0.81
+        },
+        {
+            "name": "cifar10_classifier_coreset_uniform_0.05",
+            "accuracy": 0.87,
+            "f1": 0.8,
+            "train_shape": [
+                1200,
+                512
+            ],
+            "test_shape": [
+                300,
+                512
+            ],
+            "time_elapsed": 0.49,
+            "holdout_accuracy": 0.9,
+            "holdout_f1": 0.79
+        },
+        {
+            "name": "cifar10_classifier_coreset_kmeans_0.05",
+            "accuracy": 0.61,
+            "f1": 0.88,
+            "train_shape": [
+                1200,
+                512
+            ],
+            "test_shape": [
+                300,
+                512
+            ],
+            "time_elapsed": 2.11,
+            "holdout_accuracy": 0.94,
+            "holdout_f1": 0.61
+        },
+        {
+            "name": "cifar10_classifier_coreset_lsh_0.05",
+            "accuracy": 0.83,
+            "f1": 0.69,
+            "train_shape": [
+                1200,
+                512
+            ],
+            "test_shape": [
+                300,
+                512
+            ],
+            "time_elapsed": 13.95,
+            "holdout_accuracy": 0.87,
+            "holdout_f1": 0.79
+        },
+        {
+            "name": "cifar10_classifier_coreset_olsh_0.05",
+            "accuracy": 0.9,
+            "f1": 0.98,
+            "train_shape": [
+                1200,
+                512
+            ],
+            "test_shape": [
+                300,
+                512
+            ],
+            "time_elapsed": 8.5,
+            "holdout_accuracy": 0.93,
+            "holdout_f1": 0.66
+        }
+    ],
+    "Simulation_6": [
+        {
+            "name": "cifar10_classifier_coreset_uniform_0.005",
+            "accuracy": 0.49,
+            "f1": 0.27,
+            "train_shape": [
+                120,
+                512
+            ],
+            "test_shape": [
+                30,
+                512
+            ],
+            "time_elapsed": 0.1,
+            "holdout_accuracy": 0.44,
+            "holdout_f1": 0.4
+        },
+        {
+            "name": "cifar10_classifier_coreset_kmeans_0.005",
+            "accuracy": 0.78,
+            "f1": 0.88,
+            "train_shape": [
+                120,
+                512
+            ],
+            "test_shape": [
+                30,
+                512
+            ],
+            "time_elapsed": 3.18,
+            "holdout_accuracy": 0.98,
+            "holdout_f1": 0.51
+        },
+        {
+            "name": "cifar10_classifier_coreset_lsh_0.005",
+            "accuracy": 0.47,
+            "f1": 0.47,
+            "train_shape": [
+                120,
+                512
+            ],
+            "test_shape": [
+                30,
+                512
+            ],
+            "time_elapsed": 11.98,
+            "holdout_accuracy": 0.39,
+            "holdout_f1": 0.52
+        },
+        {
+            "name": "cifar10_classifier_coreset_olsh_0.005",
+            "accuracy": 0.58,
+            "f1": 0.4,
+            "train_shape": [
+                120,
+                512
+            ],
+            "test_shape": [
+                30,
+                512
+            ],
+            "time_elapsed": 7.1,
+            "holdout_accuracy": 0.4,
+            "holdout_f1": 0.53
+        },
+        {
+            "name": "cifar10_classifier_coreset_uniform_0.01",
+            "accuracy": 0.54,
+            "f1": 0.6,
             "train_shape": [
                 240,
                 512
@@ -1634,8 +1246,8 @@
         },
         {
             "name": "cifar10_classifier_coreset_kmeans_0.01",
-            "accuracy": 0.66,
-            "f1": 0.68,
+            "accuracy": 0.72,
+            "f1": 0.52,
             "train_shape": [
                 240,
                 512
@@ -1644,14 +1256,14 @@
                 60,
                 512
             ],
-            "time_elapsed": 1.8,
-            "holdout_accuracy": 0.66,
-            "holdout_f1": 0.58
+            "time_elapsed": 1.81,
+            "holdout_accuracy": 0.55,
+            "holdout_f1": 0.55
         },
         {
             "name": "cifar10_classifier_coreset_lsh_0.01",
-            "accuracy": 0.58,
-            "f1": 0.47,
+            "accuracy": 0.56,
+            "f1": 0.64,
             "train_shape": [
                 240,
                 512
@@ -1660,14 +1272,14 @@
                 60,
                 512
             ],
-            "time_elapsed": 14.57,
-            "holdout_accuracy": 0.53,
-            "holdout_f1": 0.49
+            "time_elapsed": 14.46,
+            "holdout_accuracy": 0.66,
+            "holdout_f1": 0.55
         },
         {
             "name": "cifar10_classifier_coreset_olsh_0.01",
-            "accuracy": 0.86,
-            "f1": 0.72,
+            "accuracy": 0.81,
+            "f1": 0.96,
             "train_shape": [
                 240,
                 512
@@ -1676,14 +1288,14 @@
                 60,
                 512
             ],
-            "time_elapsed": 9.63,
-            "holdout_accuracy": 0.85,
-            "holdout_f1": 0.71
+            "time_elapsed": 9.68,
+            "holdout_accuracy": 0.84,
+            "holdout_f1": 0.56
         },
         {
             "name": "cifar10_classifier_coreset_uniform_0.05",
-            "accuracy": 0.87,
-            "f1": 0.78,
+            "accuracy": 0.88,
+            "f1": 0.64,
             "train_shape": [
                 1200,
                 512
@@ -1693,13 +1305,13 @@
                 512
             ],
             "time_elapsed": 0.49,
-            "holdout_accuracy": 0.87,
-            "holdout_f1": 0.85
+            "holdout_accuracy": 0.95,
+            "holdout_f1": 0.73
         },
         {
             "name": "cifar10_classifier_coreset_kmeans_0.05",
-            "accuracy": 0.84,
-            "f1": 0.88,
+            "accuracy": 0.88,
+            "f1": 0.74,
             "train_shape": [
                 1200,
                 512
@@ -1708,14 +1320,14 @@
                 300,
                 512
             ],
-            "time_elapsed": 2.13,
-            "holdout_accuracy": 0.93,
-            "holdout_f1": 0.88
+            "time_elapsed": 2.1,
+            "holdout_accuracy": 0.92,
+            "holdout_f1": 0.58
         },
         {
             "name": "cifar10_classifier_coreset_lsh_0.05",
-            "accuracy": 0.9,
-            "f1": 0.84,
+            "accuracy": 0.84,
+            "f1": 0.86,
             "train_shape": [
                 1200,
                 512
@@ -1724,14 +1336,14 @@
                 300,
                 512
             ],
-            "time_elapsed": 14.71,
-            "holdout_accuracy": 0.92,
-            "holdout_f1": 0.82
+            "time_elapsed": 13.96,
+            "holdout_accuracy": 0.9,
+            "holdout_f1": 0.73
         },
         {
             "name": "cifar10_classifier_coreset_olsh_0.05",
-            "accuracy": 0.95,
-            "f1": 0.89,
+            "accuracy": 0.83,
+            "f1": 0.87,
             "train_shape": [
                 1200,
                 512
@@ -1740,16 +1352,16 @@
                 300,
                 512
             ],
-            "time_elapsed": 7.79,
-            "holdout_accuracy": 0.95,
-            "holdout_f1": 0.96
+            "time_elapsed": 8.56,
+            "holdout_accuracy": 0.75,
+            "holdout_f1": 0.87
         }
     ],
-    "Simulation_9": [
+    "Simulation_7": [
         {
             "name": "cifar10_classifier_coreset_uniform_0.005",
-            "accuracy": 0.45,
-            "f1": 0.35,
+            "accuracy": 0.44,
+            "f1": 0.3,
             "train_shape": [
                 120,
                 512
@@ -1759,13 +1371,13 @@
                 512
             ],
             "time_elapsed": 0.1,
-            "holdout_accuracy": 0.38,
-            "holdout_f1": 0.45
+            "holdout_accuracy": 0.41,
+            "holdout_f1": 0.35
         },
         {
             "name": "cifar10_classifier_coreset_kmeans_0.005",
-            "accuracy": 0.84,
-            "f1": 0.83,
+            "accuracy": 0.98,
+            "f1": 0.78,
             "train_shape": [
                 120,
                 512
@@ -1774,14 +1386,14 @@
                 30,
                 512
             ],
-            "time_elapsed": 3.23,
-            "holdout_accuracy": 0.86,
+            "time_elapsed": 3.19,
+            "holdout_accuracy": 0.75,
             "holdout_f1": 0.43
         },
         {
             "name": "cifar10_classifier_coreset_lsh_0.005",
-            "accuracy": 0.44,
-            "f1": 0.43,
+            "accuracy": 0.54,
+            "f1": 0.4,
             "train_shape": [
                 120,
                 512
@@ -1790,14 +1402,14 @@
                 30,
                 512
             ],
-            "time_elapsed": 13.24,
-            "holdout_accuracy": 0.39,
-            "holdout_f1": 0.4
+            "time_elapsed": 13.02,
+            "holdout_accuracy": 0.45,
+            "holdout_f1": 0.37
         },
         {
             "name": "cifar10_classifier_coreset_olsh_0.005",
-            "accuracy": 0.52,
-            "f1": 0.43,
+            "accuracy": 0.64,
+            "f1": 0.42,
             "train_shape": [
                 120,
                 512
@@ -1806,14 +1418,402 @@
                 30,
                 512
             ],
-            "time_elapsed": 6.89,
-            "holdout_accuracy": 0.53,
-            "holdout_f1": 0.46
+            "time_elapsed": 7.18,
+            "holdout_accuracy": 0.42,
+            "holdout_f1": 0.41
         },
         {
             "name": "cifar10_classifier_coreset_uniform_0.01",
+            "accuracy": 0.65,
+            "f1": 0.59,
+            "train_shape": [
+                240,
+                512
+            ],
+            "test_shape": [
+                60,
+                512
+            ],
+            "time_elapsed": 0.3,
+            "holdout_accuracy": 0.68,
+            "holdout_f1": 0.51
+        },
+        {
+            "name": "cifar10_classifier_coreset_kmeans_0.01",
+            "accuracy": 0.65,
+            "f1": 0.76,
+            "train_shape": [
+                240,
+                512
+            ],
+            "test_shape": [
+                60,
+                512
+            ],
+            "time_elapsed": 1.83,
+            "holdout_accuracy": 0.84,
+            "holdout_f1": 0.63
+        },
+        {
+            "name": "cifar10_classifier_coreset_lsh_0.01",
+            "accuracy": 0.59,
+            "f1": 0.54,
+            "train_shape": [
+                240,
+                512
+            ],
+            "test_shape": [
+                60,
+                512
+            ],
+            "time_elapsed": 14.03,
+            "holdout_accuracy": 0.58,
+            "holdout_f1": 0.36
+        },
+        {
+            "name": "cifar10_classifier_coreset_olsh_0.01",
+            "accuracy": 0.95,
+            "f1": 0.58,
+            "train_shape": [
+                240,
+                512
+            ],
+            "test_shape": [
+                60,
+                512
+            ],
+            "time_elapsed": 9.44,
+            "holdout_accuracy": 0.67,
+            "holdout_f1": 0.71
+        },
+        {
+            "name": "cifar10_classifier_coreset_uniform_0.05",
+            "accuracy": 0.88,
+            "f1": 0.81,
+            "train_shape": [
+                1200,
+                512
+            ],
+            "test_shape": [
+                300,
+                512
+            ],
+            "time_elapsed": 0.49,
+            "holdout_accuracy": 0.58,
+            "holdout_f1": 0.92
+        },
+        {
+            "name": "cifar10_classifier_coreset_kmeans_0.05",
+            "accuracy": 0.82,
+            "f1": 0.69,
+            "train_shape": [
+                1200,
+                512
+            ],
+            "test_shape": [
+                300,
+                512
+            ],
+            "time_elapsed": 2.12,
+            "holdout_accuracy": 0.89,
+            "holdout_f1": 0.9
+        },
+        {
+            "name": "cifar10_classifier_coreset_lsh_0.05",
+            "accuracy": 0.9,
+            "f1": 0.97,
+            "train_shape": [
+                1200,
+                512
+            ],
+            "test_shape": [
+                300,
+                512
+            ],
+            "time_elapsed": 14.0,
+            "holdout_accuracy": 0.73,
+            "holdout_f1": 0.65
+        },
+        {
+            "name": "cifar10_classifier_coreset_olsh_0.05",
+            "accuracy": 0.86,
+            "f1": 0.78,
+            "train_shape": [
+                1200,
+                512
+            ],
+            "test_shape": [
+                300,
+                512
+            ],
+            "time_elapsed": 8.53,
+            "holdout_accuracy": 0.73,
+            "holdout_f1": 0.98
+        }
+    ],
+    "Simulation_8": [
+        {
+            "name": "cifar10_classifier_coreset_uniform_0.005",
+            "accuracy": 0.39,
+            "f1": 0.33,
+            "train_shape": [
+                120,
+                512
+            ],
+            "test_shape": [
+                30,
+                512
+            ],
+            "time_elapsed": 0.1,
+            "holdout_accuracy": 0.42,
+            "holdout_f1": 0.37
+        },
+        {
+            "name": "cifar10_classifier_coreset_kmeans_0.005",
+            "accuracy": 0.89,
+            "f1": 0.81,
+            "train_shape": [
+                120,
+                512
+            ],
+            "test_shape": [
+                30,
+                512
+            ],
+            "time_elapsed": 3.25,
+            "holdout_accuracy": 0.73,
+            "holdout_f1": 0.37
+        },
+        {
+            "name": "cifar10_classifier_coreset_lsh_0.005",
+            "accuracy": 0.58,
+            "f1": 0.37,
+            "train_shape": [
+                120,
+                512
+            ],
+            "test_shape": [
+                30,
+                512
+            ],
+            "time_elapsed": 13.17,
+            "holdout_accuracy": 0.39,
+            "holdout_f1": 0.37
+        },
+        {
+            "name": "cifar10_classifier_coreset_olsh_0.005",
+            "accuracy": 0.51,
+            "f1": 0.51,
+            "train_shape": [
+                120,
+                512
+            ],
+            "test_shape": [
+                30,
+                512
+            ],
+            "time_elapsed": 7.19,
+            "holdout_accuracy": 0.47,
+            "holdout_f1": 0.48
+        },
+        {
+            "name": "cifar10_classifier_coreset_uniform_0.01",
+            "accuracy": 0.71,
+            "f1": 0.49,
+            "train_shape": [
+                240,
+                512
+            ],
+            "test_shape": [
+                60,
+                512
+            ],
+            "time_elapsed": 0.3,
+            "holdout_accuracy": 0.45,
+            "holdout_f1": 0.4
+        },
+        {
+            "name": "cifar10_classifier_coreset_kmeans_0.01",
+            "accuracy": 0.46,
+            "f1": 0.66,
+            "train_shape": [
+                240,
+                512
+            ],
+            "test_shape": [
+                60,
+                512
+            ],
+            "time_elapsed": 1.81,
+            "holdout_accuracy": 0.59,
+            "holdout_f1": 0.54
+        },
+        {
+            "name": "cifar10_classifier_coreset_lsh_0.01",
+            "accuracy": 0.66,
+            "f1": 0.48,
+            "train_shape": [
+                240,
+                512
+            ],
+            "test_shape": [
+                60,
+                512
+            ],
+            "time_elapsed": 13.38,
+            "holdout_accuracy": 0.56,
+            "holdout_f1": 0.41
+        },
+        {
+            "name": "cifar10_classifier_coreset_olsh_0.01",
+            "accuracy": 0.89,
+            "f1": 0.82,
+            "train_shape": [
+                240,
+                512
+            ],
+            "test_shape": [
+                60,
+                512
+            ],
+            "time_elapsed": 9.41,
+            "holdout_accuracy": 0.48,
+            "holdout_f1": 0.64
+        },
+        {
+            "name": "cifar10_classifier_coreset_uniform_0.05",
+            "accuracy": 0.82,
+            "f1": 0.87,
+            "train_shape": [
+                1200,
+                512
+            ],
+            "test_shape": [
+                300,
+                512
+            ],
+            "time_elapsed": 0.49,
+            "holdout_accuracy": 0.99,
+            "holdout_f1": 0.72
+        },
+        {
+            "name": "cifar10_classifier_coreset_kmeans_0.05",
+            "accuracy": 0.74,
+            "f1": 0.96,
+            "train_shape": [
+                1200,
+                512
+            ],
+            "test_shape": [
+                300,
+                512
+            ],
+            "time_elapsed": 2.08,
+            "holdout_accuracy": 0.77,
+            "holdout_f1": 0.84
+        },
+        {
+            "name": "cifar10_classifier_coreset_lsh_0.05",
+            "accuracy": 0.86,
+            "f1": 0.74,
+            "train_shape": [
+                1200,
+                512
+            ],
+            "test_shape": [
+                300,
+                512
+            ],
+            "time_elapsed": 13.54,
+            "holdout_accuracy": 0.99,
+            "holdout_f1": 0.64
+        },
+        {
+            "name": "cifar10_classifier_coreset_olsh_0.05",
+            "accuracy": 0.78,
+            "f1": 0.75,
+            "train_shape": [
+                1200,
+                512
+            ],
+            "test_shape": [
+                300,
+                512
+            ],
+            "time_elapsed": 8.0,
+            "holdout_accuracy": 0.98,
+            "holdout_f1": 0.85
+        }
+    ],
+    "Simulation_9": [
+        {
+            "name": "cifar10_classifier_coreset_uniform_0.005",
+            "accuracy": 0.45,
+            "f1": 0.34,
+            "train_shape": [
+                120,
+                512
+            ],
+            "test_shape": [
+                30,
+                512
+            ],
+            "time_elapsed": 0.1,
+            "holdout_accuracy": 0.39,
+            "holdout_f1": 0.46
+        },
+        {
+            "name": "cifar10_classifier_coreset_kmeans_0.005",
+            "accuracy": 0.77,
+            "f1": 0.92,
+            "train_shape": [
+                120,
+                512
+            ],
+            "test_shape": [
+                30,
+                512
+            ],
+            "time_elapsed": 3.21,
+            "holdout_accuracy": 0.87,
+            "holdout_f1": 0.49
+        },
+        {
+            "name": "cifar10_classifier_coreset_lsh_0.005",
+            "accuracy": 0.47,
+            "f1": 0.41,
+            "train_shape": [
+                120,
+                512
+            ],
+            "test_shape": [
+                30,
+                512
+            ],
+            "time_elapsed": 13.5,
+            "holdout_accuracy": 0.44,
+            "holdout_f1": 0.38
+        },
+        {
+            "name": "cifar10_classifier_coreset_olsh_0.005",
             "accuracy": 0.57,
-            "f1": 0.55,
+            "f1": 0.47,
+            "train_shape": [
+                120,
+                512
+            ],
+            "test_shape": [
+                30,
+                512
+            ],
+            "time_elapsed": 6.94,
+            "holdout_accuracy": 0.65,
+            "holdout_f1": 0.3
+        },
+        {
+            "name": "cifar10_classifier_coreset_uniform_0.01",
+            "accuracy": 0.56,
+            "f1": 0.38,
             "train_shape": [
                 240,
                 512
@@ -1824,12 +1824,12 @@
             ],
             "time_elapsed": 0.3,
             "holdout_accuracy": 0.56,
-            "holdout_f1": 0.55
+            "holdout_f1": 0.56
         },
         {
             "name": "cifar10_classifier_coreset_kmeans_0.01",
-            "accuracy": 0.77,
-            "f1": 0.61,
+            "accuracy": 0.55,
+            "f1": 0.76,
             "train_shape": [
                 240,
                 512
@@ -1838,14 +1838,14 @@
                 60,
                 512
             ],
-            "time_elapsed": 1.79,
-            "holdout_accuracy": 0.67,
-            "holdout_f1": 0.6
+            "time_elapsed": 1.78,
+            "holdout_accuracy": 0.6,
+            "holdout_f1": 0.64
         },
         {
             "name": "cifar10_classifier_coreset_lsh_0.01",
-            "accuracy": 0.54,
-            "f1": 0.52,
+            "accuracy": 0.47,
+            "f1": 0.31,
             "train_shape": [
                 240,
                 512
@@ -1854,14 +1854,14 @@
                 60,
                 512
             ],
-            "time_elapsed": 12.18,
-            "holdout_accuracy": 0.55,
-            "holdout_f1": 0.5
+            "time_elapsed": 15.08,
+            "holdout_accuracy": 0.53,
+            "holdout_f1": 0.53
         },
         {
             "name": "cifar10_classifier_coreset_olsh_0.01",
-            "accuracy": 0.94,
-            "f1": 0.75,
+            "accuracy": 0.96,
+            "f1": 0.94,
             "train_shape": [
                 240,
                 512
@@ -1870,14 +1870,14 @@
                 60,
                 512
             ],
-            "time_elapsed": 9.82,
+            "time_elapsed": 9.08,
             "holdout_accuracy": 0.8,
-            "holdout_f1": 0.75
+            "holdout_f1": 0.86
         },
         {
             "name": "cifar10_classifier_coreset_uniform_0.05",
-            "accuracy": 0.85,
-            "f1": 0.83,
+            "accuracy": 0.84,
+            "f1": 0.82,
             "train_shape": [
                 1200,
                 512
@@ -1887,12 +1887,44 @@
                 512
             ],
             "time_elapsed": 0.49,
-            "holdout_accuracy": 0.86,
-            "holdout_f1": 0.78
+            "holdout_accuracy": 0.9,
+            "holdout_f1": 0.8
         },
         {
             "name": "cifar10_classifier_coreset_kmeans_0.05",
-            "accuracy": 0.94,
+            "accuracy": 0.9,
+            "f1": 0.79,
+            "train_shape": [
+                1200,
+                512
+            ],
+            "test_shape": [
+                300,
+                512
+            ],
+            "time_elapsed": 2.11,
+            "holdout_accuracy": 0.79,
+            "holdout_f1": 0.52
+        },
+        {
+            "name": "cifar10_classifier_coreset_lsh_0.05",
+            "accuracy": 0.7,
+            "f1": 0.76,
+            "train_shape": [
+                1200,
+                512
+            ],
+            "test_shape": [
+                300,
+                512
+            ],
+            "time_elapsed": 13.64,
+            "holdout_accuracy": 0.87,
+            "holdout_f1": 0.8
+        },
+        {
+            "name": "cifar10_classifier_coreset_olsh_0.05",
+            "accuracy": 0.72,
             "f1": 0.92,
             "train_shape": [
                 1200,
@@ -1902,40 +1934,8 @@
                 300,
                 512
             ],
-            "time_elapsed": 2.09,
-            "holdout_accuracy": 0.89,
-            "holdout_f1": 0.89
-        },
-        {
-            "name": "cifar10_classifier_coreset_lsh_0.05",
-            "accuracy": 0.8,
-            "f1": 0.87,
-            "train_shape": [
-                1200,
-                512
-            ],
-            "test_shape": [
-                300,
-                512
-            ],
-            "time_elapsed": 12.36,
-            "holdout_accuracy": 0.8,
-            "holdout_f1": 0.76
-        },
-        {
-            "name": "cifar10_classifier_coreset_olsh_0.05",
-            "accuracy": 1.0,
-            "f1": 0.9,
-            "train_shape": [
-                1200,
-                512
-            ],
-            "test_shape": [
-                300,
-                512
-            ],
-            "time_elapsed": 8.38,
-            "holdout_accuracy": 0.96,
+            "time_elapsed": 8.56,
+            "holdout_accuracy": 0.78,
             "holdout_f1": 0.95
         }
     ]
