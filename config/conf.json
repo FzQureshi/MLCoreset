@@ -1,7 +1,8 @@
 {
     "defaults": {
         "train_full_dataset": true,
-        "num_sims": 10
+        "num_sims": 10,
+        "clf": "SVC"
     },
     "dirs": {
         "data_dir": "/Users/faizqureshi/Documents/GitHub/MLCoreset/datasets",

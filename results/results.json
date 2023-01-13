@@ -2,105 +2,21 @@
     "Simulation_0": [
         {
             "name": "mnist_classifier_coreset_uniform_0.005",
-            "accuracy": 0.8,
-            "f1": 0.81,
+            "accuracy": 0.82,
+            "f1": 0.78,
             "train_shape": [
                 240,
-                78
+                784
             ],
             "test_shape": [
                 60,
                 784
             ],
-            "time_elapsed": 0.08
+            "time_elapsed": 0.13
         },
         {
             "name": "mnist_classifier_coreset_uniform_0.01",
-            "accuracy": 0.87,
-            "f1": 0.86,
-            "train_shape": [
-                480,
-                784
-            ],
-            "test_shape": [
-                120,
-                784
-            ],
-            "time_elapsed": 0.06
-        },
-        {
-            "name": "mnist_classifier_coreset_uniform_0.05",
-            "accuracy": 0.88,
-            "f1": 0.88,
-            "train_shape": [
-                2400,
-                784
-            ],
-            "test_shape": [
-                600,
-                784
-            ],
-            "time_elapsed": 0.44
-        },
-        {
-            "name": "mnist_classifier_coreset_kmeans_0.005",
-            "accuracy": 0.8,
-            "f1": 0.71,
-            "train_shape": [
-                240,
-                784
-            ],
-            "test_shape": [
-                60,
-                784
-            ],
-            "time_elapsed": 3.62
-        },
-        {
-            "name": "mnist_classifier_coreset_kmeans_0.01",
-            "accuracy": 0.86,
-            "f1": 0.85,
-            "train_shape": [
-                480,
-                784
-            ],
-            "test_shape": [
-                120,
-                784
-            ],
-            "time_elapsed": 0.17
-        },
-        {
-            "name": "mnist_classifier_coreset_kmeans_0.05",
-            "accuracy": 0.9,
-            "f1": 0.9,
-            "train_shape": [
-                2400,
-                784
-            ],
-            "test_shape": [
-                600,
-                784
-            ],
-            "time_elapsed": 0.67
-        },
-        {
-            "name": "mnist_classifier_coreset_lsh_0.005",
-            "accuracy": 0.9,
-            "f1": 0.37,
-            "train_shape": [
-                240,
-                784
-            ],
-            "test_shape": [
-                60,
-                784
-            ],
-            "time_elapsed": 63.28
-        },
-        {
-            "name": "mnist_classifier_coreset_lsh_0.01",
-            "accuracy": 0.96,
+            "accuracy": 0.89,
             "f1": 0.87,
             "train_shape": [
                 480,
@@ -110,12 +26,12 @@
                 120,
                 784
             ],
-            "time_elapsed": 0.03
+            "time_elapsed": 0.09
         },
         {
-            "name": "mnist_classifier_coreset_lsh_0.05",
-            "accuracy": 0.95,
-            "f1": 0.9,
+            "name": "mnist_classifier_coreset_uniform_0.05",
+            "accuracy": 0.92,
+            "f1": 0.91,
             "train_shape": [
                 2400,
                 784
@@ -124,12 +40,12 @@
                 600,
                 784
             ],
-            "time_elapsed": 0.31
+            "time_elapsed": 0.7
         },
         {
-            "name": "mnist_classifier_coreset_olsh_0.005",
-            "accuracy": 0.92,
-            "f1": 0.65,
+            "name": "mnist_classifier_coreset_kmeans_0.005",
+            "accuracy": 0.77,
+            "f1": 0.72,
             "train_shape": [
                 240,
                 784
@@ -138,12 +54,12 @@
                 60,
                 784
             ],
-            "time_elapsed": 23.73
+            "time_elapsed": 5.05
         },
         {
-            "name": "mnist_classifier_coreset_olsh_0.01",
-            "accuracy": 0.94,
-            "f1": 0.88,
+            "name": "mnist_classifier_coreset_kmeans_0.01",
+            "accuracy": 0.88,
+            "f1": 0.82,
             "train_shape": [
                 480,
                 784
@@ -155,9 +71,9 @@
             "time_elapsed": 0.23
         },
         {
-            "name": "mnist_classifier_coreset_olsh_0.05",
-            "accuracy": 0.93,
-            "f1": 0.92,
+            "name": "mnist_classifier_coreset_kmeans_0.05",
+            "accuracy": 0.92,
+            "f1": 0.91,
             "train_shape": [
                 2400,
                 784
@@ -166,14 +82,12 @@
                 600,
                 784
             ],
-            "time_elapsed": 0.46
-        }
-    ],
-    "Simulation_1": [
+            "time_elapsed": 1.08
+        },
         {
-            "name": "mnist_classifier_coreset_uniform_0.005",
-            "accuracy": 0.73,
-            "f1": 0.72,
+            "name": "mnist_classifier_coreset_lsh_0.005",
+            "accuracy": 0.93,
+            "f1": 0.55,
             "train_shape": [
                 240,
                 784
@@ -182,12 +96,12 @@
                 60,
                 784
             ],
-            "time_elapsed": 0.03
+            "time_elapsed": 111.27
         },
         {
-            "name": "mnist_classifier_coreset_uniform_0.01",
-            "accuracy": 0.82,
-            "f1": 0.81,
+            "name": "mnist_classifier_coreset_lsh_0.01",
+            "accuracy": 0.93,
+            "f1": 0.78,
             "train_shape": [
                 480,
                 784
@@ -199,9 +113,9 @@
             "time_elapsed": 0.06
         },
         {
-            "name": "mnist_classifier_coreset_uniform_0.05",
-            "accuracy": 0.9,
-            "f1": 0.89,
+            "name": "mnist_classifier_coreset_lsh_0.05",
+            "accuracy": 0.93,
+            "f1": 0.9,
             "train_shape": [
                 2400,
                 784
@@ -210,12 +124,12 @@
                 600,
                 784
             ],
-            "time_elapsed": 0.42
+            "time_elapsed": 0.58
         },
         {
-            "name": "mnist_classifier_coreset_kmeans_0.005",
-            "accuracy": 0.78,
-            "f1": 0.76,
+            "name": "mnist_classifier_coreset_olsh_0.005",
+            "accuracy": 0.95,
+            "f1": 0.91,
             "train_shape": [
                 240,
                 784
@@ -224,12 +138,12 @@
                 60,
                 784
             ],
-            "time_elapsed": 3.61
+            "time_elapsed": 52.5
         },
         {
-            "name": "mnist_classifier_coreset_kmeans_0.01",
+            "name": "mnist_classifier_coreset_olsh_0.01",
             "accuracy": 0.88,
-            "f1": 0.86,
+            "f1": 0.59,
             "train_shape": [
                 480,
                 784
@@ -238,10 +152,54 @@
                 120,
                 784
             ],
-            "time_elapsed": 0.16
+            "time_elapsed": 0.37
         },
         {
-            "name": "mnist_classifier_coreset_kmeans_0.05",
+            "name": "mnist_classifier_coreset_olsh_0.05",
+            "accuracy": 0.92,
+            "f1": 0.83,
+            "train_shape": [
+                2400,
+                784
+            ],
+            "test_shape": [
+                600,
+                784
+            ],
+            "time_elapsed": 0.71
+        }
+    ],
+    "Simulation_1": [
+        {
+            "name": "mnist_classifier_coreset_uniform_0.005",
+            "accuracy": 0.8,
+            "f1": 0.77,
+            "train_shape": [
+                240,
+                784
+            ],
+            "test_shape": [
+                60,
+                784
+            ],
+            "time_elapsed": 0.04
+        },
+        {
+            "name": "mnist_classifier_coreset_uniform_0.01",
+            "accuracy": 0.88,
+            "f1": 0.87,
+            "train_shape": [
+                480,
+                784
+            ],
+            "test_shape": [
+                120,
+                784
+            ],
+            "time_elapsed": 0.08
+        },
+        {
+            "name": "mnist_classifier_coreset_uniform_0.05",
             "accuracy": 0.91,
             "f1": 0.9,
             "train_shape": [
@@ -255,474 +213,6 @@
             "time_elapsed": 0.68
         },
         {
-            "name": "mnist_classifier_coreset_lsh_0.005",
-            "accuracy": 0.93,
-            "f1": 0.81,
-            "train_shape": [
-                240,
-                784
-            ],
-            "test_shape": [
-                60,
-                784
-            ],
-            "time_elapsed": 64.02
-        },
-        {
-            "name": "mnist_classifier_coreset_lsh_0.01",
-            "accuracy": 0.89,
-            "f1": 0.79,
-            "train_shape": [
-                480,
-                784
-            ],
-            "test_shape": [
-                120,
-                784
-            ],
-            "time_elapsed": 0.05
-        },
-        {
-            "name": "mnist_classifier_coreset_lsh_0.05",
-            "accuracy": 0.96,
-            "f1": 0.84,
-            "train_shape": [
-                2400,
-                784
-            ],
-            "test_shape": [
-                600,
-                784
-            ],
-            "time_elapsed": 0.3
-        },
-        {
-            "name": "mnist_classifier_coreset_olsh_0.005",
-            "accuracy": 0.83,
-            "f1": 0.66,
-            "train_shape": [
-                240,
-                784
-            ],
-            "test_shape": [
-                60,
-                784
-            ],
-            "time_elapsed": 22.31
-        },
-        {
-            "name": "mnist_classifier_coreset_olsh_0.01",
-            "accuracy": 0.87,
-            "f1": 0.74,
-            "train_shape": [
-                480,
-                784
-            ],
-            "test_shape": [
-                120,
-                784
-            ],
-            "time_elapsed": 0.27
-        },
-        {
-            "name": "mnist_classifier_coreset_olsh_0.05",
-            "accuracy": 0.92,
-            "f1": 0.77,
-            "train_shape": [
-                2400,
-                784
-            ],
-            "test_shape": [
-                600,
-                784
-            ],
-            "time_elapsed": 0.53
-        }
-    ],
-    "Simulation_2": [
-        {
-            "name": "mnist_classifier_coreset_uniform_0.005",
-            "accuracy": 0.78,
-            "f1": 0.74,
-            "train_shape": [
-                240,
-                784
-            ],
-            "test_shape": [
-                60,
-                784
-            ],
-            "time_elapsed": 0.03
-        },
-        {
-            "name": "mnist_classifier_coreset_uniform_0.01",
-            "accuracy": 0.79,
-            "f1": 0.78,
-            "train_shape": [
-                480,
-                784
-            ],
-            "test_shape": [
-                120,
-                784
-            ],
-            "time_elapsed": 0.05
-        },
-        {
-            "name": "mnist_classifier_coreset_uniform_0.05",
-            "accuracy": 0.9,
-            "f1": 0.9,
-            "train_shape": [
-                2400,
-                784
-            ],
-            "test_shape": [
-                600,
-                784
-            ],
-            "time_elapsed": 0.42
-        },
-        {
-            "name": "mnist_classifier_coreset_kmeans_0.005",
-            "accuracy": 0.8,
-            "f1": 0.67,
-            "train_shape": [
-                240,
-                784
-            ],
-            "test_shape": [
-                60,
-                784
-            ],
-            "time_elapsed": 6.95
-        },
-        {
-            "name": "mnist_classifier_coreset_kmeans_0.01",
-            "accuracy": 0.87,
-            "f1": 0.85,
-            "train_shape": [
-                480,
-                784
-            ],
-            "test_shape": [
-                120,
-                784
-            ],
-            "time_elapsed": 0.18
-        },
-        {
-            "name": "mnist_classifier_coreset_kmeans_0.05",
-            "accuracy": 0.9,
-            "f1": 0.89,
-            "train_shape": [
-                2400,
-                784
-            ],
-            "test_shape": [
-                600,
-                784
-            ],
-            "time_elapsed": 0.78
-        },
-        {
-            "name": "mnist_classifier_coreset_lsh_0.005",
-            "accuracy": 0.87,
-            "f1": 0.78,
-            "train_shape": [
-                240,
-                784
-            ],
-            "test_shape": [
-                60,
-                784
-            ],
-            "time_elapsed": 63.86
-        },
-        {
-            "name": "mnist_classifier_coreset_lsh_0.01",
-            "accuracy": 0.81,
-            "f1": 0.6,
-            "train_shape": [
-                480,
-                784
-            ],
-            "test_shape": [
-                120,
-                784
-            ],
-            "time_elapsed": 0.04
-        },
-        {
-            "name": "mnist_classifier_coreset_lsh_0.05",
-            "accuracy": 0.91,
-            "f1": 0.87,
-            "train_shape": [
-                2400,
-                784
-            ],
-            "test_shape": [
-                600,
-                784
-            ],
-            "time_elapsed": 0.38
-        },
-        {
-            "name": "mnist_classifier_coreset_olsh_0.005",
-            "accuracy": 0.97,
-            "f1": 0.73,
-            "train_shape": [
-                240,
-                784
-            ],
-            "test_shape": [
-                60,
-                784
-            ],
-            "time_elapsed": 29.35
-        },
-        {
-            "name": "mnist_classifier_coreset_olsh_0.01",
-            "accuracy": 0.97,
-            "f1": 0.83,
-            "train_shape": [
-                480,
-                784
-            ],
-            "test_shape": [
-                120,
-                784
-            ],
-            "time_elapsed": 0.26
-        },
-        {
-            "name": "mnist_classifier_coreset_olsh_0.05",
-            "accuracy": 0.95,
-            "f1": 0.79,
-            "train_shape": [
-                2400,
-                784
-            ],
-            "test_shape": [
-                600,
-                784
-            ],
-            "time_elapsed": 0.44
-        }
-    ],
-    "Simulation_3": [
-        {
-            "name": "mnist_classifier_coreset_uniform_0.005",
-            "accuracy": 0.87,
-            "f1": 0.88,
-            "train_shape": [
-                240,
-                784
-            ],
-            "test_shape": [
-                60,
-                784
-            ],
-            "time_elapsed": 0.03
-        },
-        {
-            "name": "mnist_classifier_coreset_uniform_0.01",
-            "accuracy": 0.87,
-            "f1": 0.86,
-            "train_shape": [
-                480,
-                784
-            ],
-            "test_shape": [
-                120,
-                784
-            ],
-            "time_elapsed": 0.05
-        },
-        {
-            "name": "mnist_classifier_coreset_uniform_0.05",
-            "accuracy": 0.92,
-            "f1": 0.91,
-            "train_shape": [
-                2400,
-                784
-            ],
-            "test_shape": [
-                600,
-                784
-            ],
-            "time_elapsed": 0.42
-        },
-        {
-            "name": "mnist_classifier_coreset_kmeans_0.005",
-            "accuracy": 0.82,
-            "f1": 0.79,
-            "train_shape": [
-                240,
-                784
-            ],
-            "test_shape": [
-                60,
-                784
-            ],
-            "time_elapsed": 3.94
-        },
-        {
-            "name": "mnist_classifier_coreset_kmeans_0.01",
-            "accuracy": 0.88,
-            "f1": 0.88,
-            "train_shape": [
-                480,
-                784
-            ],
-            "test_shape": [
-                120,
-                784
-            ],
-            "time_elapsed": 0.18
-        },
-        {
-            "name": "mnist_classifier_coreset_kmeans_0.05",
-            "accuracy": 0.89,
-            "f1": 0.88,
-            "train_shape": [
-                2400,
-                784
-            ],
-            "test_shape": [
-                600,
-                784
-            ],
-            "time_elapsed": 0.72
-        },
-        {
-            "name": "mnist_classifier_coreset_lsh_0.005",
-            "accuracy": 0.83,
-            "f1": 0.51,
-            "train_shape": [
-                240,
-                784
-            ],
-            "test_shape": [
-                60,
-                784
-            ],
-            "time_elapsed": 62.99
-        },
-        {
-            "name": "mnist_classifier_coreset_lsh_0.01",
-            "accuracy": 0.91,
-            "f1": 0.72,
-            "train_shape": [
-                480,
-                784
-            ],
-            "test_shape": [
-                120,
-                784
-            ],
-            "time_elapsed": 0.04
-        },
-        {
-            "name": "mnist_classifier_coreset_lsh_0.05",
-            "accuracy": 0.93,
-            "f1": 0.89,
-            "train_shape": [
-                2400,
-                784
-            ],
-            "test_shape": [
-                600,
-                784
-            ],
-            "time_elapsed": 0.38
-        },
-        {
-            "name": "mnist_classifier_coreset_olsh_0.005",
-            "accuracy": 0.9,
-            "f1": 0.74,
-            "train_shape": [
-                240,
-                784
-            ],
-            "test_shape": [
-                60,
-                784
-            ],
-            "time_elapsed": 25.6
-        },
-        {
-            "name": "mnist_classifier_coreset_olsh_0.01",
-            "accuracy": 0.93,
-            "f1": 0.9,
-            "train_shape": [
-                480,
-                784
-            ],
-            "test_shape": [
-                120,
-                784
-            ],
-            "time_elapsed": 0.25
-        },
-        {
-            "name": "mnist_classifier_coreset_olsh_0.05",
-            "accuracy": 0.94,
-            "f1": 0.86,
-            "train_shape": [
-                2400,
-                784
-            ],
-            "test_shape": [
-                600,
-                784
-            ],
-            "time_elapsed": 0.51
-        }
-    ],
-    "Simulation_4": [
-        {
-            "name": "mnist_classifier_coreset_uniform_0.005",
-            "accuracy": 0.82,
-            "f1": 0.77,
-            "train_shape": [
-                240,
-                784
-            ],
-            "test_shape": [
-                60,
-                784
-            ],
-            "time_elapsed": 0.02
-        },
-        {
-            "name": "mnist_classifier_coreset_uniform_0.01",
-            "accuracy": 0.88,
-            "f1": 0.87,
-            "train_shape": [
-                480,
-                784
-            ],
-            "test_shape": [
-                120,
-                784
-            ],
-            "time_elapsed": 0.05
-        },
-        {
-            "name": "mnist_classifier_coreset_uniform_0.05",
-            "accuracy": 0.91,
-            "f1": 0.91,
-            "train_shape": [
-                2400,
-                784
-            ],
-            "test_shape": [
-                600,
-                784
-            ],
-            "time_elapsed": 0.42
-        },
-        {
             "name": "mnist_classifier_coreset_kmeans_0.005",
             "accuracy": 0.82,
             "f1": 0.71,
@@ -734,606 +224,12 @@
                 60,
                 784
             ],
-            "time_elapsed": 3.35
+            "time_elapsed": 5.27
         },
         {
             "name": "mnist_classifier_coreset_kmeans_0.01",
-            "accuracy": 0.82,
-            "f1": 0.8,
-            "train_shape": [
-                480,
-                784
-            ],
-            "test_shape": [
-                120,
-                784
-            ],
-            "time_elapsed": 0.17
-        },
-        {
-            "name": "mnist_classifier_coreset_kmeans_0.05",
-            "accuracy": 0.9,
-            "f1": 0.88,
-            "train_shape": [
-                2400,
-                784
-            ],
-            "test_shape": [
-                600,
-                784
-            ],
-            "time_elapsed": 0.69
-        },
-        {
-            "name": "mnist_classifier_coreset_lsh_0.005",
-            "accuracy": 0.95,
-            "f1": 0.72,
-            "train_shape": [
-                240,
-                784
-            ],
-            "test_shape": [
-                60,
-                784
-            ],
-            "time_elapsed": 63.84
-        },
-        {
-            "name": "mnist_classifier_coreset_lsh_0.01",
-            "accuracy": 0.95,
-            "f1": 0.72,
-            "train_shape": [
-                480,
-                784
-            ],
-            "test_shape": [
-                120,
-                784
-            ],
-            "time_elapsed": 0.04
-        },
-        {
-            "name": "mnist_classifier_coreset_lsh_0.05",
-            "accuracy": 0.95,
-            "f1": 0.9,
-            "train_shape": [
-                2400,
-                784
-            ],
-            "test_shape": [
-                600,
-                784
-            ],
-            "time_elapsed": 0.33
-        },
-        {
-            "name": "mnist_classifier_coreset_olsh_0.005",
-            "accuracy": 0.93,
-            "f1": 0.78,
-            "train_shape": [
-                240,
-                784
-            ],
-            "test_shape": [
-                60,
-                784
-            ],
-            "time_elapsed": 26.06
-        },
-        {
-            "name": "mnist_classifier_coreset_olsh_0.01",
-            "accuracy": 0.92,
-            "f1": 0.82,
-            "train_shape": [
-                480,
-                784
-            ],
-            "test_shape": [
-                120,
-                784
-            ],
-            "time_elapsed": 0.23
-        },
-        {
-            "name": "mnist_classifier_coreset_olsh_0.05",
-            "accuracy": 0.94,
-            "f1": 0.82,
-            "train_shape": [
-                2400,
-                784
-            ],
-            "test_shape": [
-                600,
-                784
-            ],
-            "time_elapsed": 0.5
-        }
-    ],
-    "Simulation_5": [
-        {
-            "name": "mnist_classifier_coreset_uniform_0.005",
             "accuracy": 0.85,
-            "f1": 0.85,
-            "train_shape": [
-                240,
-                784
-            ],
-            "test_shape": [
-                60,
-                784
-            ],
-            "time_elapsed": 0.03
-        },
-        {
-            "name": "mnist_classifier_coreset_uniform_0.01",
-            "accuracy": 0.86,
-            "f1": 0.85,
-            "train_shape": [
-                480,
-                784
-            ],
-            "test_shape": [
-                120,
-                784
-            ],
-            "time_elapsed": 0.05
-        },
-        {
-            "name": "mnist_classifier_coreset_uniform_0.05",
-            "accuracy": 0.91,
-            "f1": 0.91,
-            "train_shape": [
-                2400,
-                784
-            ],
-            "test_shape": [
-                600,
-                784
-            ],
-            "time_elapsed": 0.41
-        },
-        {
-            "name": "mnist_classifier_coreset_kmeans_0.005",
-            "accuracy": 0.75,
-            "f1": 0.69,
-            "train_shape": [
-                240,
-                784
-            ],
-            "test_shape": [
-                60,
-                784
-            ],
-            "time_elapsed": 4.09
-        },
-        {
-            "name": "mnist_classifier_coreset_kmeans_0.01",
-            "accuracy": 0.84,
-            "f1": 0.83,
-            "train_shape": [
-                480,
-                784
-            ],
-            "test_shape": [
-                120,
-                784
-            ],
-            "time_elapsed": 0.16
-        },
-        {
-            "name": "mnist_classifier_coreset_kmeans_0.05",
-            "accuracy": 0.92,
-            "f1": 0.91,
-            "train_shape": [
-                2400,
-                784
-            ],
-            "test_shape": [
-                600,
-                784
-            ],
-            "time_elapsed": 0.69
-        },
-        {
-            "name": "mnist_classifier_coreset_lsh_0.005",
-            "accuracy": 0.93,
-            "f1": 0.76,
-            "train_shape": [
-                240,
-                784
-            ],
-            "test_shape": [
-                60,
-                784
-            ],
-            "time_elapsed": 64.79
-        },
-        {
-            "name": "mnist_classifier_coreset_lsh_0.01",
-            "accuracy": 0.92,
-            "f1": 0.75,
-            "train_shape": [
-                480,
-                784
-            ],
-            "test_shape": [
-                120,
-                784
-            ],
-            "time_elapsed": 0.04
-        },
-        {
-            "name": "mnist_classifier_coreset_lsh_0.05",
-            "accuracy": 0.94,
-            "f1": 0.88,
-            "train_shape": [
-                2400,
-                784
-            ],
-            "test_shape": [
-                600,
-                784
-            ],
-            "time_elapsed": 0.38
-        },
-        {
-            "name": "mnist_classifier_coreset_olsh_0.005",
-            "accuracy": 0.97,
             "f1": 0.82,
-            "train_shape": [
-                240,
-                784
-            ],
-            "test_shape": [
-                60,
-                784
-            ],
-            "time_elapsed": 29.3
-        },
-        {
-            "name": "mnist_classifier_coreset_olsh_0.01",
-            "accuracy": 0.96,
-            "f1": 0.73,
-            "train_shape": [
-                480,
-                784
-            ],
-            "test_shape": [
-                120,
-                784
-            ],
-            "time_elapsed": 0.27
-        },
-        {
-            "name": "mnist_classifier_coreset_olsh_0.05",
-            "accuracy": 0.93,
-            "f1": 0.89,
-            "train_shape": [
-                2400,
-                784
-            ],
-            "test_shape": [
-                600,
-                784
-            ],
-            "time_elapsed": 0.45
-        }
-    ],
-    "Simulation_6": [
-        {
-            "name": "mnist_classifier_coreset_uniform_0.005",
-            "accuracy": 0.82,
-            "f1": 0.81,
-            "train_shape": [
-                240,
-                784
-            ],
-            "test_shape": [
-                60,
-                784
-            ],
-            "time_elapsed": 0.03
-        },
-        {
-            "name": "mnist_classifier_coreset_uniform_0.01",
-            "accuracy": 0.89,
-            "f1": 0.89,
-            "train_shape": [
-                480,
-                784
-            ],
-            "test_shape": [
-                120,
-                784
-            ],
-            "time_elapsed": 0.05
-        },
-        {
-            "name": "mnist_classifier_coreset_uniform_0.05",
-            "accuracy": 0.89,
-            "f1": 0.89,
-            "train_shape": [
-                2400,
-                784
-            ],
-            "test_shape": [
-                600,
-                784
-            ],
-            "time_elapsed": 0.43
-        },
-        {
-            "name": "mnist_classifier_coreset_kmeans_0.005",
-            "accuracy": 0.87,
-            "f1": 0.77,
-            "train_shape": [
-                240,
-                784
-            ],
-            "test_shape": [
-                60,
-                784
-            ],
-            "time_elapsed": 4.07
-        },
-        {
-            "name": "mnist_classifier_coreset_kmeans_0.01",
-            "accuracy": 0.84,
-            "f1": 0.81,
-            "train_shape": [
-                480,
-                784
-            ],
-            "test_shape": [
-                120,
-                784
-            ],
-            "time_elapsed": 0.17
-        },
-        {
-            "name": "mnist_classifier_coreset_kmeans_0.05",
-            "accuracy": 0.9,
-            "f1": 0.89,
-            "train_shape": [
-                2400,
-                784
-            ],
-            "test_shape": [
-                600,
-                784
-            ],
-            "time_elapsed": 0.71
-        },
-        {
-            "name": "mnist_classifier_coreset_lsh_0.005",
-            "accuracy": 0.92,
-            "f1": 0.85,
-            "train_shape": [
-                240,
-                784
-            ],
-            "test_shape": [
-                60,
-                784
-            ],
-            "time_elapsed": 64.45
-        },
-        {
-            "name": "mnist_classifier_coreset_lsh_0.01",
-            "accuracy": 0.93,
-            "f1": 0.89,
-            "train_shape": [
-                480,
-                784
-            ],
-            "test_shape": [
-                120,
-                784
-            ],
-            "time_elapsed": 0.04
-        },
-        {
-            "name": "mnist_classifier_coreset_lsh_0.05",
-            "accuracy": 0.93,
-            "f1": 0.86,
-            "train_shape": [
-                2400,
-                784
-            ],
-            "test_shape": [
-                600,
-                784
-            ],
-            "time_elapsed": 0.4
-        },
-        {
-            "name": "mnist_classifier_coreset_olsh_0.005",
-            "accuracy": 0.92,
-            "f1": 0.73,
-            "train_shape": [
-                240,
-                784
-            ],
-            "test_shape": [
-                60,
-                784
-            ],
-            "time_elapsed": 29.85
-        },
-        {
-            "name": "mnist_classifier_coreset_olsh_0.01",
-            "accuracy": 0.93,
-            "f1": 0.74,
-            "train_shape": [
-                480,
-                784
-            ],
-            "test_shape": [
-                120,
-                784
-            ],
-            "time_elapsed": 0.26
-        },
-        {
-            "name": "mnist_classifier_coreset_olsh_0.05",
-            "accuracy": 0.93,
-            "f1": 0.85,
-            "train_shape": [
-                2400,
-                784
-            ],
-            "test_shape": [
-                600,
-                784
-            ],
-            "time_elapsed": 0.53
-        }
-    ],
-    "Simulation_7": [
-        {
-            "name": "mnist_classifier_coreset_uniform_0.005",
-            "accuracy": 0.92,
-            "f1": 0.93,
-            "train_shape": [
-                240,
-                784
-            ],
-            "test_shape": [
-                60,
-                784
-            ],
-            "time_elapsed": 0.03
-        },
-        {
-            "name": "mnist_classifier_coreset_uniform_0.01",
-            "accuracy": 0.88,
-            "f1": 0.87,
-            "train_shape": [
-                480,
-                784
-            ],
-            "test_shape": [
-                120,
-                784
-            ],
-            "time_elapsed": 0.05
-        },
-        {
-            "name": "mnist_classifier_coreset_uniform_0.05",
-            "accuracy": 0.86,
-            "f1": 0.86,
-            "train_shape": [
-                2400,
-                784
-            ],
-            "test_shape": [
-                600,
-                784
-            ],
-            "time_elapsed": 0.43
-        },
-        {
-            "name": "mnist_classifier_coreset_kmeans_0.005",
-            "accuracy": 0.82,
-            "f1": 0.78,
-            "train_shape": [
-                240,
-                784
-            ],
-            "test_shape": [
-                60,
-                784
-            ],
-            "time_elapsed": 4.05
-        },
-        {
-            "name": "mnist_classifier_coreset_kmeans_0.01",
-            "accuracy": 0.87,
-            "f1": 0.84,
-            "train_shape": [
-                480,
-                784
-            ],
-            "test_shape": [
-                120,
-                784
-            ],
-            "time_elapsed": 0.16
-        },
-        {
-            "name": "mnist_classifier_coreset_kmeans_0.05",
-            "accuracy": 0.88,
-            "f1": 0.87,
-            "train_shape": [
-                2400,
-                784
-            ],
-            "test_shape": [
-                600,
-                784
-            ],
-            "time_elapsed": 0.72
-        },
-        {
-            "name": "mnist_classifier_coreset_lsh_0.005",
-            "accuracy": 0.85,
-            "f1": 0.76,
-            "train_shape": [
-                240,
-                784
-            ],
-            "test_shape": [
-                60,
-                784
-            ],
-            "time_elapsed": 64.77
-        },
-        {
-            "name": "mnist_classifier_coreset_lsh_0.01",
-            "accuracy": 0.88,
-            "f1": 0.86,
-            "train_shape": [
-                480,
-                784
-            ],
-            "test_shape": [
-                120,
-                784
-            ],
-            "time_elapsed": 0.04
-        },
-        {
-            "name": "mnist_classifier_coreset_lsh_0.05",
-            "accuracy": 0.94,
-            "f1": 0.91,
-            "train_shape": [
-                2400,
-                784
-            ],
-            "test_shape": [
-                600,
-                784
-            ],
-            "time_elapsed": 0.36
-        },
-        {
-            "name": "mnist_classifier_coreset_olsh_0.005",
-            "accuracy": 0.83,
-            "f1": 0.79,
-            "train_shape": [
-                240,
-                784
-            ],
-            "test_shape": [
-                60,
-                784
-            ],
-            "time_elapsed": 21.06
-        },
-        {
-            "name": "mnist_classifier_coreset_olsh_0.01",
-            "accuracy": 0.92,
-            "f1": 0.88,
             "train_shape": [
                 480,
                 784
@@ -1345,9 +241,9 @@
             "time_elapsed": 0.24
         },
         {
-            "name": "mnist_classifier_coreset_olsh_0.05",
-            "accuracy": 0.97,
-            "f1": 0.94,
+            "name": "mnist_classifier_coreset_kmeans_0.05",
+            "accuracy": 0.9,
+            "f1": 0.89,
             "train_shape": [
                 2400,
                 784
@@ -1356,14 +252,12 @@
                 600,
                 784
             ],
-            "time_elapsed": 0.49
-        }
-    ],
-    "Simulation_8": [
+            "time_elapsed": 1.2
+        },
         {
-            "name": "mnist_classifier_coreset_uniform_0.005",
-            "accuracy": 0.85,
-            "f1": 0.77,
+            "name": "mnist_classifier_coreset_lsh_0.005",
+            "accuracy": 0.92,
+            "f1": 0.87,
             "train_shape": [
                 240,
                 784
@@ -1372,12 +266,12 @@
                 60,
                 784
             ],
-            "time_elapsed": 0.03
+            "time_elapsed": 102.56
         },
         {
-            "name": "mnist_classifier_coreset_uniform_0.01",
-            "accuracy": 0.85,
-            "f1": 0.87,
+            "name": "mnist_classifier_coreset_lsh_0.01",
+            "accuracy": 0.88,
+            "f1": 0.84,
             "train_shape": [
                 480,
                 784
@@ -1386,7 +280,263 @@
                 120,
                 784
             ],
-            "time_elapsed": 0.05
+            "time_elapsed": 0.07
+        },
+        {
+            "name": "mnist_classifier_coreset_lsh_0.05",
+            "accuracy": 0.94,
+            "f1": 0.93,
+            "train_shape": [
+                2400,
+                784
+            ],
+            "test_shape": [
+                600,
+                784
+            ],
+            "time_elapsed": 0.58
+        },
+        {
+            "name": "mnist_classifier_coreset_olsh_0.005",
+            "accuracy": 0.92,
+            "f1": 0.81,
+            "train_shape": [
+                240,
+                784
+            ],
+            "test_shape": [
+                60,
+                784
+            ],
+            "time_elapsed": 55.81
+        },
+        {
+            "name": "mnist_classifier_coreset_olsh_0.01",
+            "accuracy": 0.95,
+            "f1": 0.84,
+            "train_shape": [
+                480,
+                784
+            ],
+            "test_shape": [
+                120,
+                784
+            ],
+            "time_elapsed": 0.38
+        },
+        {
+            "name": "mnist_classifier_coreset_olsh_0.05",
+            "accuracy": 0.94,
+            "f1": 0.9,
+            "train_shape": [
+                2400,
+                784
+            ],
+            "test_shape": [
+                600,
+                784
+            ],
+            "time_elapsed": 0.78
+        }
+    ],
+    "Simulation_2": [
+        {
+            "name": "mnist_classifier_coreset_uniform_0.005",
+            "accuracy": 0.85,
+            "f1": 0.81,
+            "train_shape": [
+                240,
+                784
+            ],
+            "test_shape": [
+                60,
+                784
+            ],
+            "time_elapsed": 0.04
+        },
+        {
+            "name": "mnist_classifier_coreset_uniform_0.01",
+            "accuracy": 0.89,
+            "f1": 0.88,
+            "train_shape": [
+                480,
+                784
+            ],
+            "test_shape": [
+                120,
+                784
+            ],
+            "time_elapsed": 0.07
+        },
+        {
+            "name": "mnist_classifier_coreset_uniform_0.05",
+            "accuracy": 0.88,
+            "f1": 0.88,
+            "train_shape": [
+                2400,
+                784
+            ],
+            "test_shape": [
+                600,
+                784
+            ],
+            "time_elapsed": 0.65
+        },
+        {
+            "name": "mnist_classifier_coreset_kmeans_0.005",
+            "accuracy": 0.9,
+            "f1": 0.88,
+            "train_shape": [
+                240,
+                784
+            ],
+            "test_shape": [
+                60,
+                784
+            ],
+            "time_elapsed": 5.11
+        },
+        {
+            "name": "mnist_classifier_coreset_kmeans_0.01",
+            "accuracy": 0.82,
+            "f1": 0.79,
+            "train_shape": [
+                480,
+                784
+            ],
+            "test_shape": [
+                120,
+                784
+            ],
+            "time_elapsed": 0.22
+        },
+        {
+            "name": "mnist_classifier_coreset_kmeans_0.05",
+            "accuracy": 0.9,
+            "f1": 0.89,
+            "train_shape": [
+                2400,
+                784
+            ],
+            "test_shape": [
+                600,
+                784
+            ],
+            "time_elapsed": 1.05
+        },
+        {
+            "name": "mnist_classifier_coreset_lsh_0.005",
+            "accuracy": 0.83,
+            "f1": 0.53,
+            "train_shape": [
+                240,
+                784
+            ],
+            "test_shape": [
+                60,
+                784
+            ],
+            "time_elapsed": 103.12
+        },
+        {
+            "name": "mnist_classifier_coreset_lsh_0.01",
+            "accuracy": 0.88,
+            "f1": 0.67,
+            "train_shape": [
+                480,
+                784
+            ],
+            "test_shape": [
+                120,
+                784
+            ],
+            "time_elapsed": 0.08
+        },
+        {
+            "name": "mnist_classifier_coreset_lsh_0.05",
+            "accuracy": 0.9,
+            "f1": 0.87,
+            "train_shape": [
+                2400,
+                784
+            ],
+            "test_shape": [
+                600,
+                784
+            ],
+            "time_elapsed": 0.7
+        },
+        {
+            "name": "mnist_classifier_coreset_olsh_0.005",
+            "accuracy": 0.82,
+            "f1": 0.67,
+            "train_shape": [
+                240,
+                784
+            ],
+            "test_shape": [
+                60,
+                784
+            ],
+            "time_elapsed": 51.39
+        },
+        {
+            "name": "mnist_classifier_coreset_olsh_0.01",
+            "accuracy": 0.92,
+            "f1": 0.86,
+            "train_shape": [
+                480,
+                784
+            ],
+            "test_shape": [
+                120,
+                784
+            ],
+            "time_elapsed": 0.38
+        },
+        {
+            "name": "mnist_classifier_coreset_olsh_0.05",
+            "accuracy": 0.94,
+            "f1": 0.88,
+            "train_shape": [
+                2400,
+                784
+            ],
+            "test_shape": [
+                600,
+                784
+            ],
+            "time_elapsed": 0.77
+        }
+    ],
+    "Simulation_3": [
+        {
+            "name": "mnist_classifier_coreset_uniform_0.005",
+            "accuracy": 0.8,
+            "f1": 0.73,
+            "train_shape": [
+                240,
+                784
+            ],
+            "test_shape": [
+                60,
+                784
+            ],
+            "time_elapsed": 0.04
+        },
+        {
+            "name": "mnist_classifier_coreset_uniform_0.01",
+            "accuracy": 0.87,
+            "f1": 0.85,
+            "train_shape": [
+                480,
+                784
+            ],
+            "test_shape": [
+                120,
+                784
+            ],
+            "time_elapsed": 0.09
         },
         {
             "name": "mnist_classifier_coreset_uniform_0.05",
@@ -1400,11 +550,95 @@
                 600,
                 784
             ],
-            "time_elapsed": 0.41
+            "time_elapsed": 0.66
         },
         {
             "name": "mnist_classifier_coreset_kmeans_0.005",
-            "accuracy": 0.85,
+            "accuracy": 0.78,
+            "f1": 0.75,
+            "train_shape": [
+                240,
+                784
+            ],
+            "test_shape": [
+                60,
+                784
+            ],
+            "time_elapsed": 4.43
+        },
+        {
+            "name": "mnist_classifier_coreset_kmeans_0.01",
+            "accuracy": 0.89,
+            "f1": 0.87,
+            "train_shape": [
+                480,
+                784
+            ],
+            "test_shape": [
+                120,
+                784
+            ],
+            "time_elapsed": 0.23
+        },
+        {
+            "name": "mnist_classifier_coreset_kmeans_0.05",
+            "accuracy": 0.9,
+            "f1": 0.89,
+            "train_shape": [
+                2400,
+                784
+            ],
+            "test_shape": [
+                600,
+                784
+            ],
+            "time_elapsed": 1.03
+        },
+        {
+            "name": "mnist_classifier_coreset_lsh_0.005",
+            "accuracy": 0.97,
+            "f1": 0.96,
+            "train_shape": [
+                240,
+                784
+            ],
+            "test_shape": [
+                60,
+                784
+            ],
+            "time_elapsed": 102.13
+        },
+        {
+            "name": "mnist_classifier_coreset_lsh_0.01",
+            "accuracy": 0.92,
+            "f1": 0.91,
+            "train_shape": [
+                480,
+                784
+            ],
+            "test_shape": [
+                120,
+                784
+            ],
+            "time_elapsed": 0.07
+        },
+        {
+            "name": "mnist_classifier_coreset_lsh_0.05",
+            "accuracy": 0.92,
+            "f1": 0.88,
+            "train_shape": [
+                2400,
+                784
+            ],
+            "test_shape": [
+                600,
+                784
+            ],
+            "time_elapsed": 0.53
+        },
+        {
+            "name": "mnist_classifier_coreset_olsh_0.005",
+            "accuracy": 0.92,
             "f1": 0.86,
             "train_shape": [
                 240,
@@ -1414,12 +648,12 @@
                 60,
                 784
             ],
-            "time_elapsed": 5.49
+            "time_elapsed": 37.34
         },
         {
-            "name": "mnist_classifier_coreset_kmeans_0.01",
-            "accuracy": 0.83,
-            "f1": 0.83,
+            "name": "mnist_classifier_coreset_olsh_0.01",
+            "accuracy": 0.92,
+            "f1": 0.87,
             "train_shape": [
                 480,
                 784
@@ -1428,11 +662,11 @@
                 120,
                 784
             ],
-            "time_elapsed": 0.18
+            "time_elapsed": 0.4
         },
         {
-            "name": "mnist_classifier_coreset_kmeans_0.05",
-            "accuracy": 0.9,
+            "name": "mnist_classifier_coreset_olsh_0.05",
+            "accuracy": 0.95,
             "f1": 0.9,
             "train_shape": [
                 2400,
@@ -1442,10 +676,308 @@
                 600,
                 784
             ],
-            "time_elapsed": 0.73
+            "time_elapsed": 0.62
+        }
+    ],
+    "Simulation_4": [
+        {
+            "name": "mnist_classifier_coreset_uniform_0.005",
+            "accuracy": 0.82,
+            "f1": 0.8,
+            "train_shape": [
+                240,
+                784
+            ],
+            "test_shape": [
+                60,
+                784
+            ],
+            "time_elapsed": 0.04
+        },
+        {
+            "name": "mnist_classifier_coreset_uniform_0.01",
+            "accuracy": 0.84,
+            "f1": 0.83,
+            "train_shape": [
+                480,
+                784
+            ],
+            "test_shape": [
+                120,
+                784
+            ],
+            "time_elapsed": 0.08
+        },
+        {
+            "name": "mnist_classifier_coreset_uniform_0.05",
+            "accuracy": 0.89,
+            "f1": 0.89,
+            "train_shape": [
+                2400,
+                784
+            ],
+            "test_shape": [
+                600,
+                784
+            ],
+            "time_elapsed": 0.65
+        },
+        {
+            "name": "mnist_classifier_coreset_kmeans_0.005",
+            "accuracy": 0.87,
+            "f1": 0.79,
+            "train_shape": [
+                240,
+                784
+            ],
+            "test_shape": [
+                60,
+                784
+            ],
+            "time_elapsed": 4.47
+        },
+        {
+            "name": "mnist_classifier_coreset_kmeans_0.01",
+            "accuracy": 0.92,
+            "f1": 0.89,
+            "train_shape": [
+                480,
+                784
+            ],
+            "test_shape": [
+                120,
+                784
+            ],
+            "time_elapsed": 0.23
+        },
+        {
+            "name": "mnist_classifier_coreset_kmeans_0.05",
+            "accuracy": 0.9,
+            "f1": 0.89,
+            "train_shape": [
+                2400,
+                784
+            ],
+            "test_shape": [
+                600,
+                784
+            ],
+            "time_elapsed": 1.07
         },
         {
             "name": "mnist_classifier_coreset_lsh_0.005",
+            "accuracy": 0.92,
+            "f1": 0.7,
+            "train_shape": [
+                240,
+                784
+            ],
+            "test_shape": [
+                60,
+                784
+            ],
+            "time_elapsed": 102.89
+        },
+        {
+            "name": "mnist_classifier_coreset_lsh_0.01",
+            "accuracy": 0.96,
+            "f1": 0.9,
+            "train_shape": [
+                480,
+                784
+            ],
+            "test_shape": [
+                120,
+                784
+            ],
+            "time_elapsed": 0.06
+        },
+        {
+            "name": "mnist_classifier_coreset_lsh_0.05",
+            "accuracy": 0.94,
+            "f1": 0.93,
+            "train_shape": [
+                2400,
+                784
+            ],
+            "test_shape": [
+                600,
+                784
+            ],
+            "time_elapsed": 0.54
+        },
+        {
+            "name": "mnist_classifier_coreset_olsh_0.005",
+            "accuracy": 0.93,
+            "f1": 0.76,
+            "train_shape": [
+                240,
+                784
+            ],
+            "test_shape": [
+                60,
+                784
+            ],
+            "time_elapsed": 56.15
+        },
+        {
+            "name": "mnist_classifier_coreset_olsh_0.01",
+            "accuracy": 0.93,
+            "f1": 0.78,
+            "train_shape": [
+                480,
+                784
+            ],
+            "test_shape": [
+                120,
+                784
+            ],
+            "time_elapsed": 0.37
+        },
+        {
+            "name": "mnist_classifier_coreset_olsh_0.05",
+            "accuracy": 0.93,
+            "f1": 0.92,
+            "train_shape": [
+                2400,
+                784
+            ],
+            "test_shape": [
+                600,
+                784
+            ],
+            "time_elapsed": 0.8
+        }
+    ],
+    "Simulation_5": [
+        {
+            "name": "mnist_classifier_coreset_uniform_0.005",
+            "accuracy": 0.82,
+            "f1": 0.82,
+            "train_shape": [
+                240,
+                784
+            ],
+            "test_shape": [
+                60,
+                784
+            ],
+            "time_elapsed": 0.04
+        },
+        {
+            "name": "mnist_classifier_coreset_uniform_0.01",
+            "accuracy": 0.87,
+            "f1": 0.85,
+            "train_shape": [
+                480,
+                784
+            ],
+            "test_shape": [
+                120,
+                784
+            ],
+            "time_elapsed": 0.08
+        },
+        {
+            "name": "mnist_classifier_coreset_uniform_0.05",
+            "accuracy": 0.91,
+            "f1": 0.91,
+            "train_shape": [
+                2400,
+                784
+            ],
+            "test_shape": [
+                600,
+                784
+            ],
+            "time_elapsed": 0.67
+        },
+        {
+            "name": "mnist_classifier_coreset_kmeans_0.005",
+            "accuracy": 0.85,
+            "f1": 0.79,
+            "train_shape": [
+                240,
+                784
+            ],
+            "test_shape": [
+                60,
+                784
+            ],
+            "time_elapsed": 4.57
+        },
+        {
+            "name": "mnist_classifier_coreset_kmeans_0.01",
+            "accuracy": 0.87,
+            "f1": 0.84,
+            "train_shape": [
+                480,
+                784
+            ],
+            "test_shape": [
+                120,
+                784
+            ],
+            "time_elapsed": 0.22
+        },
+        {
+            "name": "mnist_classifier_coreset_kmeans_0.05",
+            "accuracy": 0.92,
+            "f1": 0.91,
+            "train_shape": [
+                2400,
+                784
+            ],
+            "test_shape": [
+                600,
+                784
+            ],
+            "time_elapsed": 1.03
+        },
+        {
+            "name": "mnist_classifier_coreset_lsh_0.005",
+            "accuracy": 0.92,
+            "f1": 0.76,
+            "train_shape": [
+                240,
+                784
+            ],
+            "test_shape": [
+                60,
+                784
+            ],
+            "time_elapsed": 102.61
+        },
+        {
+            "name": "mnist_classifier_coreset_lsh_0.01",
+            "accuracy": 0.95,
+            "f1": 0.6,
+            "train_shape": [
+                480,
+                784
+            ],
+            "test_shape": [
+                120,
+                784
+            ],
+            "time_elapsed": 0.06
+        },
+        {
+            "name": "mnist_classifier_coreset_lsh_0.05",
+            "accuracy": 0.95,
+            "f1": 0.85,
+            "train_shape": [
+                2400,
+                784
+            ],
+            "test_shape": [
+                600,
+                784
+            ],
+            "time_elapsed": 0.51
+        },
+        {
+            "name": "mnist_classifier_coreset_olsh_0.005",
             "accuracy": 0.87,
             "f1": 0.85,
             "train_shape": [
@@ -1456,10 +988,224 @@
                 60,
                 784
             ],
-            "time_elapsed": 64.17
+            "time_elapsed": 73.66
+        },
+        {
+            "name": "mnist_classifier_coreset_olsh_0.01",
+            "accuracy": 0.91,
+            "f1": 0.75,
+            "train_shape": [
+                480,
+                784
+            ],
+            "test_shape": [
+                120,
+                784
+            ],
+            "time_elapsed": 0.42
+        },
+        {
+            "name": "mnist_classifier_coreset_olsh_0.05",
+            "accuracy": 0.92,
+            "f1": 0.85,
+            "train_shape": [
+                2400,
+                784
+            ],
+            "test_shape": [
+                600,
+                784
+            ],
+            "time_elapsed": 0.73
+        }
+    ],
+    "Simulation_6": [
+        {
+            "name": "mnist_classifier_coreset_uniform_0.005",
+            "accuracy": 0.87,
+            "f1": 0.79,
+            "train_shape": [
+                240,
+                784
+            ],
+            "test_shape": [
+                60,
+                784
+            ],
+            "time_elapsed": 0.04
+        },
+        {
+            "name": "mnist_classifier_coreset_uniform_0.01",
+            "accuracy": 0.86,
+            "f1": 0.86,
+            "train_shape": [
+                480,
+                784
+            ],
+            "test_shape": [
+                120,
+                784
+            ],
+            "time_elapsed": 0.08
+        },
+        {
+            "name": "mnist_classifier_coreset_uniform_0.05",
+            "accuracy": 0.88,
+            "f1": 0.88,
+            "train_shape": [
+                2400,
+                784
+            ],
+            "test_shape": [
+                600,
+                784
+            ],
+            "time_elapsed": 0.68
+        },
+        {
+            "name": "mnist_classifier_coreset_kmeans_0.005",
+            "accuracy": 0.83,
+            "f1": 0.79,
+            "train_shape": [
+                240,
+                784
+            ],
+            "test_shape": [
+                60,
+                784
+            ],
+            "time_elapsed": 4.2
+        },
+        {
+            "name": "mnist_classifier_coreset_kmeans_0.01",
+            "accuracy": 0.88,
+            "f1": 0.85,
+            "train_shape": [
+                480,
+                784
+            ],
+            "test_shape": [
+                120,
+                784
+            ],
+            "time_elapsed": 0.23
+        },
+        {
+            "name": "mnist_classifier_coreset_kmeans_0.05",
+            "accuracy": 0.9,
+            "f1": 0.89,
+            "train_shape": [
+                2400,
+                784
+            ],
+            "test_shape": [
+                600,
+                784
+            ],
+            "time_elapsed": 1.11
+        },
+        {
+            "name": "mnist_classifier_coreset_lsh_0.005",
+            "accuracy": 0.92,
+            "f1": 0.78,
+            "train_shape": [
+                240,
+                784
+            ],
+            "test_shape": [
+                60,
+                784
+            ],
+            "time_elapsed": 102.32
         },
         {
             "name": "mnist_classifier_coreset_lsh_0.01",
+            "accuracy": 0.92,
+            "f1": 0.86,
+            "train_shape": [
+                480,
+                784
+            ],
+            "test_shape": [
+                120,
+                784
+            ],
+            "time_elapsed": 0.06
+        },
+        {
+            "name": "mnist_classifier_coreset_lsh_0.05",
+            "accuracy": 0.93,
+            "f1": 0.92,
+            "train_shape": [
+                2400,
+                784
+            ],
+            "test_shape": [
+                600,
+                784
+            ],
+            "time_elapsed": 0.59
+        },
+        {
+            "name": "mnist_classifier_coreset_olsh_0.005",
+            "accuracy": 0.93,
+            "f1": 0.89,
+            "train_shape": [
+                240,
+                784
+            ],
+            "test_shape": [
+                60,
+                784
+            ],
+            "time_elapsed": 37.75
+        },
+        {
+            "name": "mnist_classifier_coreset_olsh_0.01",
+            "accuracy": 0.91,
+            "f1": 0.87,
+            "train_shape": [
+                480,
+                784
+            ],
+            "test_shape": [
+                120,
+                784
+            ],
+            "time_elapsed": 0.4
+        },
+        {
+            "name": "mnist_classifier_coreset_olsh_0.05",
+            "accuracy": 0.94,
+            "f1": 0.92,
+            "train_shape": [
+                2400,
+                784
+            ],
+            "test_shape": [
+                600,
+                784
+            ],
+            "time_elapsed": 0.77
+        }
+    ],
+    "Simulation_7": [
+        {
+            "name": "mnist_classifier_coreset_uniform_0.005",
+            "accuracy": 0.78,
+            "f1": 0.76,
+            "train_shape": [
+                240,
+                784
+            ],
+            "test_shape": [
+                60,
+                784
+            ],
+            "time_elapsed": 0.04
+        },
+        {
+            "name": "mnist_classifier_coreset_uniform_0.01",
             "accuracy": 0.88,
             "f1": 0.88,
             "train_shape": [
@@ -1470,12 +1216,12 @@
                 120,
                 784
             ],
-            "time_elapsed": 0.05
+            "time_elapsed": 0.07
         },
         {
-            "name": "mnist_classifier_coreset_lsh_0.05",
-            "accuracy": 0.94,
-            "f1": 0.91,
+            "name": "mnist_classifier_coreset_uniform_0.05",
+            "accuracy": 0.9,
+            "f1": 0.9,
             "train_shape": [
                 2400,
                 784
@@ -1484,12 +1230,12 @@
                 600,
                 784
             ],
-            "time_elapsed": 0.38
+            "time_elapsed": 0.64
         },
         {
-            "name": "mnist_classifier_coreset_olsh_0.005",
-            "accuracy": 0.95,
-            "f1": 0.91,
+            "name": "mnist_classifier_coreset_kmeans_0.005",
+            "accuracy": 0.88,
+            "f1": 0.89,
             "train_shape": [
                 240,
                 784
@@ -1498,12 +1244,12 @@
                 60,
                 784
             ],
-            "time_elapsed": 36.74
+            "time_elapsed": 4.44
         },
         {
-            "name": "mnist_classifier_coreset_olsh_0.01",
-            "accuracy": 0.86,
-            "f1": 0.67,
+            "name": "mnist_classifier_coreset_kmeans_0.01",
+            "accuracy": 0.94,
+            "f1": 0.91,
             "train_shape": [
                 480,
                 784
@@ -1513,6 +1259,90 @@
                 784
             ],
             "time_elapsed": 0.23
+        },
+        {
+            "name": "mnist_classifier_coreset_kmeans_0.05",
+            "accuracy": 0.9,
+            "f1": 0.89,
+            "train_shape": [
+                2400,
+                784
+            ],
+            "test_shape": [
+                600,
+                784
+            ],
+            "time_elapsed": 1.05
+        },
+        {
+            "name": "mnist_classifier_coreset_lsh_0.005",
+            "accuracy": 0.92,
+            "f1": 0.89,
+            "train_shape": [
+                240,
+                784
+            ],
+            "test_shape": [
+                60,
+                784
+            ],
+            "time_elapsed": 102.84
+        },
+        {
+            "name": "mnist_classifier_coreset_lsh_0.01",
+            "accuracy": 0.9,
+            "f1": 0.9,
+            "train_shape": [
+                480,
+                784
+            ],
+            "test_shape": [
+                120,
+                784
+            ],
+            "time_elapsed": 0.08
+        },
+        {
+            "name": "mnist_classifier_coreset_lsh_0.05",
+            "accuracy": 0.92,
+            "f1": 0.85,
+            "train_shape": [
+                2400,
+                784
+            ],
+            "test_shape": [
+                600,
+                784
+            ],
+            "time_elapsed": 0.6
+        },
+        {
+            "name": "mnist_classifier_coreset_olsh_0.005",
+            "accuracy": 0.83,
+            "f1": 0.52,
+            "train_shape": [
+                240,
+                784
+            ],
+            "test_shape": [
+                60,
+                784
+            ],
+            "time_elapsed": 33.79
+        },
+        {
+            "name": "mnist_classifier_coreset_olsh_0.01",
+            "accuracy": 0.85,
+            "f1": 0.61,
+            "train_shape": [
+                480,
+                784
+            ],
+            "test_shape": [
+                120,
+                784
+            ],
+            "time_elapsed": 0.37
         },
         {
             "name": "mnist_classifier_coreset_olsh_0.05",
@@ -1526,14 +1356,14 @@
                 600,
                 784
             ],
-            "time_elapsed": 0.45
+            "time_elapsed": 0.68
         }
     ],
-    "Simulation_9": [
+    "Simulation_8": [
         {
             "name": "mnist_classifier_coreset_uniform_0.005",
-            "accuracy": 0.82,
-            "f1": 0.81,
+            "accuracy": 0.87,
+            "f1": 0.77,
             "train_shape": [
                 240,
                 784
@@ -1542,12 +1372,12 @@
                 60,
                 784
             ],
-            "time_elapsed": 0.03
+            "time_elapsed": 0.04
         },
         {
             "name": "mnist_classifier_coreset_uniform_0.01",
-            "accuracy": 0.87,
-            "f1": 0.86,
+            "accuracy": 0.85,
+            "f1": 0.85,
             "train_shape": [
                 480,
                 784
@@ -1556,12 +1386,12 @@
                 120,
                 784
             ],
-            "time_elapsed": 0.05
+            "time_elapsed": 0.07
         },
         {
             "name": "mnist_classifier_coreset_uniform_0.05",
-            "accuracy": 0.87,
-            "f1": 0.87,
+            "accuracy": 0.91,
+            "f1": 0.9,
             "train_shape": [
                 2400,
                 784
@@ -1570,12 +1400,12 @@
                 600,
                 784
             ],
-            "time_elapsed": 0.41
+            "time_elapsed": 0.64
         },
         {
             "name": "mnist_classifier_coreset_kmeans_0.005",
             "accuracy": 0.82,
-            "f1": 0.71,
+            "f1": 0.76,
             "train_shape": [
                 240,
                 784
@@ -1584,12 +1414,182 @@
                 60,
                 784
             ],
-            "time_elapsed": 4.01
+            "time_elapsed": 5.66
         },
         {
             "name": "mnist_classifier_coreset_kmeans_0.01",
-            "accuracy": 0.93,
-            "f1": 0.92,
+            "accuracy": 0.88,
+            "f1": 0.89,
+            "train_shape": [
+                480,
+                784
+            ],
+            "test_shape": [
+                120,
+                784
+            ],
+            "time_elapsed": 0.22
+        },
+        {
+            "name": "mnist_classifier_coreset_kmeans_0.05",
+            "accuracy": 0.9,
+            "f1": 0.9,
+            "train_shape": [
+                2400,
+                784
+            ],
+            "test_shape": [
+                600,
+                784
+            ],
+            "time_elapsed": 1.06
+        },
+        {
+            "name": "mnist_classifier_coreset_lsh_0.005",
+            "accuracy": 0.82,
+            "f1": 0.73,
+            "train_shape": [
+                240,
+                784
+            ],
+            "test_shape": [
+                60,
+                784
+            ],
+            "time_elapsed": 102.81
+        },
+        {
+            "name": "mnist_classifier_coreset_lsh_0.01",
+            "accuracy": 0.9,
+            "f1": 0.68,
+            "train_shape": [
+                480,
+                784
+            ],
+            "test_shape": [
+                120,
+                784
+            ],
+            "time_elapsed": 0.08
+        },
+        {
+            "name": "mnist_classifier_coreset_lsh_0.05",
+            "accuracy": 0.9,
+            "f1": 0.88,
+            "train_shape": [
+                2400,
+                784
+            ],
+            "test_shape": [
+                600,
+                784
+            ],
+            "time_elapsed": 0.61
+        },
+        {
+            "name": "mnist_classifier_coreset_olsh_0.005",
+            "accuracy": 0.88,
+            "f1": 0.62,
+            "train_shape": [
+                240,
+                784
+            ],
+            "test_shape": [
+                60,
+                784
+            ],
+            "time_elapsed": 50.75
+        },
+        {
+            "name": "mnist_classifier_coreset_olsh_0.01",
+            "accuracy": 0.86,
+            "f1": 0.78,
+            "train_shape": [
+                480,
+                784
+            ],
+            "test_shape": [
+                120,
+                784
+            ],
+            "time_elapsed": 0.42
+        },
+        {
+            "name": "mnist_classifier_coreset_olsh_0.05",
+            "accuracy": 0.92,
+            "f1": 0.91,
+            "train_shape": [
+                2400,
+                784
+            ],
+            "test_shape": [
+                600,
+                784
+            ],
+            "time_elapsed": 0.75
+        }
+    ],
+    "Simulation_9": [
+        {
+            "name": "mnist_classifier_coreset_uniform_0.005",
+            "accuracy": 0.77,
+            "f1": 0.79,
+            "train_shape": [
+                240,
+                784
+            ],
+            "test_shape": [
+                60,
+                784
+            ],
+            "time_elapsed": 0.04
+        },
+        {
+            "name": "mnist_classifier_coreset_uniform_0.01",
+            "accuracy": 0.88,
+            "f1": 0.87,
+            "train_shape": [
+                480,
+                784
+            ],
+            "test_shape": [
+                120,
+                784
+            ],
+            "time_elapsed": 0.09
+        },
+        {
+            "name": "mnist_classifier_coreset_uniform_0.05",
+            "accuracy": 0.92,
+            "f1": 0.91,
+            "train_shape": [
+                2400,
+                784
+            ],
+            "test_shape": [
+                600,
+                784
+            ],
+            "time_elapsed": 0.7
+        },
+        {
+            "name": "mnist_classifier_coreset_kmeans_0.005",
+            "accuracy": 0.9,
+            "f1": 0.8,
+            "train_shape": [
+                240,
+                784
+            ],
+            "test_shape": [
+                60,
+                784
+            ],
+            "time_elapsed": 5.05
+        },
+        {
+            "name": "mnist_classifier_coreset_kmeans_0.01",
+            "accuracy": 0.84,
+            "f1": 0.8,
             "train_shape": [
                 480,
                 784
@@ -1612,12 +1612,12 @@
                 600,
                 784
             ],
-            "time_elapsed": 0.76
+            "time_elapsed": 1.06
         },
         {
             "name": "mnist_classifier_coreset_lsh_0.005",
-            "accuracy": 0.93,
-            "f1": 0.81,
+            "accuracy": 0.95,
+            "f1": 0.84,
             "train_shape": [
                 240,
                 784
@@ -1626,11 +1626,53 @@
                 60,
                 784
             ],
-            "time_elapsed": 64.42
+            "time_elapsed": 102.06
         },
         {
             "name": "mnist_classifier_coreset_lsh_0.01",
-            "accuracy": 0.93,
+            "accuracy": 0.91,
+            "f1": 0.85,
+            "train_shape": [
+                480,
+                784
+            ],
+            "test_shape": [
+                120,
+                784
+            ],
+            "time_elapsed": 0.08
+        },
+        {
+            "name": "mnist_classifier_coreset_lsh_0.05",
+            "accuracy": 0.91,
+            "f1": 0.88,
+            "train_shape": [
+                2400,
+                784
+            ],
+            "test_shape": [
+                600,
+                784
+            ],
+            "time_elapsed": 0.6
+        },
+        {
+            "name": "mnist_classifier_coreset_olsh_0.005",
+            "accuracy": 0.9,
+            "f1": 0.84,
+            "train_shape": [
+                240,
+                784
+            ],
+            "test_shape": [
+                60,
+                784
+            ],
+            "time_elapsed": 50.27
+        },
+        {
+            "name": "mnist_classifier_coreset_olsh_0.01",
+            "accuracy": 0.86,
             "f1": 0.83,
             "train_shape": [
                 480,
@@ -1640,10 +1682,10 @@
                 120,
                 784
             ],
-            "time_elapsed": 0.04
+            "time_elapsed": 0.36
         },
         {
-            "name": "mnist_classifier_coreset_lsh_0.05",
+            "name": "mnist_classifier_coreset_olsh_0.05",
             "accuracy": 0.94,
             "f1": 0.91,
             "train_shape": [
@@ -1654,49 +1696,7 @@
                 600,
                 784
             ],
-            "time_elapsed": 0.4
-        },
-        {
-            "name": "mnist_classifier_coreset_olsh_0.005",
-            "accuracy": 0.88,
-            "f1": 0.52,
-            "train_shape": [
-                240,
-                784
-            ],
-            "test_shape": [
-                60,
-                784
-            ],
-            "time_elapsed": 31.54
-        },
-        {
-            "name": "mnist_classifier_coreset_olsh_0.01",
-            "accuracy": 0.92,
-            "f1": 0.65,
-            "train_shape": [
-                480,
-                784
-            ],
-            "test_shape": [
-                120,
-                784
-            ],
-            "time_elapsed": 0.25
-        },
-        {
-            "name": "mnist_classifier_coreset_olsh_0.05",
-            "accuracy": 0.95,
-            "f1": 0.91,
-            "train_shape": [
-                2400,
-                784
-            ],
-            "test_shape": [
-                600,
-                784
-            ],
-            "time_elapsed": 0.47
+            "time_elapsed": 0.62
         }
     ],
     "Full_dataset": {
@@ -1711,6 +1711,6 @@
             12000,
             784
         ],
-        "time_elapsed": 133.22
+        "time_elapsed": 185.43
     }
 }

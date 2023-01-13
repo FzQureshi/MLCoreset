@@ -22,6 +22,7 @@ dataset_name = config['dataset_name']
 techniques = config['techniques']
 sizes = config['sizes']
 num_sims = config['defaults']['num_sims']
+clf_type = config['defaults']['clf']
 dataset_path = os.path.join(data_dir, dataset_name)
 
 for directory in [models_dir, results_dir]:
@@ -51,7 +52,11 @@ def create_and_train():
             cs_creation_time = coreset.populate(size)
             print(f'Coreset shape: {coreset.coreset.shape})')
             # coreset.save(data_dir, f'{coreset_name}.csv')
-            training_stat = train_classifier(coreset.coreset, coreset_name, cs_creation_time, models_dir)
+            training_stat = train_classifier(coreset.coreset,
+                                             clf_type,
+                                             coreset_name,
+                                             cs_creation_time,
+                                             models_dir)
             training_stats.append(training_stat)
     return training_stats
 
@@ -70,7 +75,11 @@ for i in range(num_sims):
 if config['defaults']['train_full_dataset']:
     println()
     print('Training on full dataset (this might take a while)...')
-    full_training_stats['Full_dataset'] = train_classifier(full_dataset, 'full_data', 0, models_dir)
+    full_training_stats['Full_dataset'] = train_classifier(full_dataset,
+                                                           clf_type,
+                                                           'full_data',
+                                                           0,
+                                                           models_dir)
     println()
 
 print(stats_json_str := json.dumps(full_training_stats, indent=4))

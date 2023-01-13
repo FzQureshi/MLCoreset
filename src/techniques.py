@@ -100,7 +100,6 @@ class Clustering(Technique):
                          tol=1e-04)
 
         self.dataset['Cluster'] = k_means.fit_predict(x)
-        print(self.dataset.dtypes)
         return self.dataset
 
 
